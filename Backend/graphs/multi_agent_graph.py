@@ -53,7 +53,6 @@ async def run_all_agents(request: RunRequest):
 
 @app.get("/agent-output")
 async def get_agent_output(agent: str = Query(...)):
-    # Map agent names to output file paths
     agent_file_map = {
         "market_analysis_competitors": os.path.join(
             os.path.dirname(__file__),
@@ -67,17 +66,9 @@ async def get_agent_output(agent: str = Query(...)):
             os.path.dirname(__file__),
             "..", "agents", "output", "legal_analysis_output.txt"
         ),
-        "partners_suppliers_investors": os.path.join(
+        "opportunities": os.path.join(
             os.path.dirname(__file__),
-            "..", "agents", "output", "partners_suppliers_investors_output.txt"
-        ),
-        "market_analysis": os.path.join(
-            os.path.dirname(__file__),
-            "..", "agents", "output", "market_analysis_output.txt"
-        ),
-        "competitor_analysis": os.path.join(
-            os.path.dirname(__file__),
-            "..", "agents", "output", "competitor_analysis_output.txt"
+            "..", "agents", "output", "opportunities_output.txt"
         ),
     }
     if agent not in agent_file_map:
