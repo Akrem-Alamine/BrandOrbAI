@@ -7,6 +7,18 @@ from Backend.agents.marketAnalysis_competitors_Agents import run_market_analysis
 #from Backend.agents.opportunities_agent import run_opportunities_agent
 import asyncio
 
+from fastapi import FastAPI, HTTPException, Query
+from pydantic import BaseModel
+import uuid
+
+app = FastAPI()
+
+# In-memory storage for runs (replace with DB/cache in production)
+runs = {}
+
+class RunRequest(BaseModel):
+    business_idea: str
+
 class State:
     def __init__(self, business_idea: str):
         self.business_idea = business_idea
@@ -26,14 +38,53 @@ class State:
             "market_analysis": self.market_analysis,
             "competitor_analysis": self.competitor_analysis,
         }
-if __name__ == "__main__":
-    async def main():
-        business_idea = "A subscription-based service delivering eco-friendly household products."
-        state = State(business_idea)
-        financial_agent = FinancialAssessmentAgent()
-        state.financial_assessment = financial_agent.summarize_business_idea(state)
-        legal_agent = LegalAgent()
-        state = legal_agent.run(state)
-        # state.partners_suppliers_investors = run_opportunities_agent(state.business_idea)
-        state = run_market_analysis_competitors(state)
-    asyncio.run(main())
+
+@app.post("/run-all")
+async def run_all_agents(request: RunRequest):
+    run_id = str(uuid.uuid4())
+    state = State(request.business_idea)
+    financial_agent = FinancialAssessmentAgent()
+    state.financial_assessment = financial_agent.summarize_business_idea(state)
+    legal_agent = LegalAgent()
+    state = legal_agent.run(state)
+    state = run_market_analysis_competitors(state)
+    runs[run_id] = state.to_dict()
+    return {"message": "done"}
+
+@app.get("/agent-output")
+async def get_agent_output(agent: str = Query(...)):
+    # Map agent names to output file paths
+    agent_file_map = {
+        "market_analysis_competitors": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "market_analysis_competitors_output.txt"
+        ),
+        "financial_assessment": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "assessment_output.txt"
+        ),
+        "legal_analysis": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "legal_analysis_output.txt"
+        ),
+        "partners_suppliers_investors": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "partners_suppliers_investors_output.txt"
+        ),
+        "market_analysis": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "market_analysis_output.txt"
+        ),
+        "competitor_analysis": os.path.join(
+            os.path.dirname(__file__),
+            "..", "agents", "output", "competitor_analysis_output.txt"
+        ),
+    }
+    if agent not in agent_file_map:
+        raise HTTPException(status_code=404, detail="Agent output file not found")
+    file_path = os.path.abspath(agent_file_map[agent])
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Output file does not exist")
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return {"output": content}
