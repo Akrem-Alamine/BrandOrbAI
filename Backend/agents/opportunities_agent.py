@@ -1,11 +1,11 @@
-import streamlit as st
 import re
-import json
 import os
 from apify_client import ApifyClient
 from groq import Groq
-from .prompts import OPPORTUNITIES_SEARCH_TERM_PROMPT, OPPORTUNITIES_COMPANY_EXTRACTION_PROMPT  # Import both prompts
+from .prompts import OPPORTUNITIES_SEARCH_TERM_PROMPT
+from dotenv import load_dotenv
 
+load_dotenv()
 APIFY_API_TOKEN = os.environ.get("APIFY_API_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
@@ -30,49 +30,41 @@ def run_opportunities_agent(business_idea: str) -> str:
             search_term = search_term_raw if len(search_term_raw.split()) <= 4 else ""
     if not search_term:
         output = "No valid search term could be extracted."
+        results = []
     else:
         # Use the new Apify actor and input format (new scrapper)
         client = ApifyClient(APIFY_API_TOKEN)
-        start_url = f"https://www.europages.fr/entreprises/{search_term.replace(' ', '%20')}.html"
         run_input = {
-            "url": start_url,
-            "page_limit": 5,
+            "search_type": "company",
+            "search_term": search_term,
+            "max_pages": 0,
+            "start_page": 1,
+            "only_verified_companies": False,
+            "include_company_details": False,
         }
-        run = client.actor("hfCNGmqBV3WQNxaCc").call(run_input=run_input)
+        run = client.actor("MrUWjMel0oGyzwTxY").call(run_input=run_input)
         results = []
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
             results.append(item)
-        # Compose the raw output
-        raw_output = {
-            "search_term": search_term,
-            "companies": results
-        }
-        # Use LLM to structure the companies output
-        llm_prompt = OPPORTUNITIES_COMPANY_EXTRACTION_PROMPT + "\n" + json.dumps(raw_output, ensure_ascii=False)
-        llm_response = groq_client.chat.completions.create(
-            model="llama3-8b-8192",
-            messages=[{"role": "user", "content": llm_prompt}],
-            max_tokens=4096,
-            temperature=0.2,
-        )
-        # The LLM should return only the structured JSON array
-        output = llm_response.choices[0].message.content.strip()
-        # output = json.dumps(raw_output, ensure_ascii=False)  # Keep raw data for now
+    filtered_results = extract_company_fields(results)
 
-    output_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "output/opportunities_output.json"))
+    output_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "output/opportunities_output.txt"))
     with open(output_file_path, "w", encoding="utf-8") as f:
-        # Always write the cleaned output (string)
-        f.write(output)
+        # Write the filtered results as JSON
+        import json
+        f.write(json.dumps(filtered_results, ensure_ascii=False, indent=2))
     return output_file_path
 
-# --- Streamlit UI remains unchanged below ---
-st.title("Idea Analyzer & Partner Finder")
-idea = st.text_area("Enter your business idea:")
-if st.button("Analyze & Search"):
-    if not idea.strip():
-        st.warning("Please enter your idea.")
-    else:
-        file_path = run_opportunities_agent(idea)
-        st.success(f"Results written to: {file_path}")
-        with open(file_path, "r", encoding="utf-8") as f:
-            st.code(f.read(), language="json")
+def extract_company_fields(companies):
+    extracted = []
+    for company in companies:
+        extracted.append({
+            "name": company.get("name", "") or "",
+            "description": company.get("description", "") or "",
+            "city": company.get("address", {}).get("city", "") if company.get("address") else "",
+            "email": company.get("email", "") or "",
+            "homepage": company.get("homepage", "") or "",
+            "logoUrl": company.get("logoUrl", "") or "",
+            "phoneNumber": company.get("phoneNumber", "") or ""
+        })
+    return extracted

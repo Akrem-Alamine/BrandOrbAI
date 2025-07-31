@@ -66,7 +66,7 @@ async def get_agent_output(agent: str = Query(...)):
         ),
         "legal_analysis": os.path.join(
             os.path.dirname(__file__),
-            "..", "agents", "output", "legal_analysis_output.txt"
+            "..", "agents", "output", "legal_output.txt"
         ),
         "opportunities": os.path.join(
             os.path.dirname(__file__),
