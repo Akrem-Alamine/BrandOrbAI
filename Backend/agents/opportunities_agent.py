@@ -4,16 +4,12 @@ import json
 import os
 from apify_client import ApifyClient
 from groq import Groq
-from .prompts import OPPORTUNITIES_SEARCH_TERM_PROMPT  # Import prompt constant
+from .prompts import OPPORTUNITIES_SEARCH_TERM_PROMPT, OPPORTUNITIES_COMPANY_EXTRACTION_PROMPT  # Import both prompts
 
 APIFY_API_TOKEN = os.environ.get("APIFY_API_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 def run_opportunities_agent(business_idea: str) -> str:
-    """
-    Takes a business idea, generates opportunities, writes them to opportunities_output.txt,
-    and returns the file path.
-    """
     groq_client = Groq(api_key=GROQ_API_KEY)
     prompt = OPPORTUNITIES_SEARCH_TERM_PROMPT.format(business_idea=business_idea)
     response = groq_client.chat.completions.create(
@@ -35,29 +31,38 @@ def run_opportunities_agent(business_idea: str) -> str:
     if not search_term:
         output = "No valid search term could be extracted."
     else:
-        # Use the new Apify actor and input format
+        # Use the new Apify actor and input format (new scrapper)
         client = ApifyClient(APIFY_API_TOKEN)
-        search_url = f"https://www.europages.co.uk/en/search?cserpRedirect=1&q={search_term.replace(' ', '+')}"
+        start_url = f"https://www.europages.fr/entreprises/{search_term.replace(' ', '%20')}.html"
         run_input = {
-            "searchUrls": [search_url],
-            "maxItems": 50,
-            "proxyConfiguration": { "useApifyProxy": False },
+            "url": start_url,
+            "page_limit": 5,
         }
-        run = client.actor("uQcrX2IkqDyZSaKQB").call(run_input=run_input)
+        run = client.actor("hfCNGmqBV3WQNxaCc").call(run_input=run_input)
         results = []
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
             results.append(item)
-        # No Company class needed, just output the results as-is
-        output = {
+        # Compose the raw output
+        raw_output = {
             "search_term": search_term,
             "companies": results
         }
-    output_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "output/opportunities_output.txt"))
+        # Use LLM to structure the companies output
+        llm_prompt = OPPORTUNITIES_COMPANY_EXTRACTION_PROMPT + "\n" + json.dumps(raw_output, ensure_ascii=False)
+        llm_response = groq_client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=[{"role": "user", "content": llm_prompt}],
+            max_tokens=4096,
+            temperature=0.2,
+        )
+        # The LLM should return only the structured JSON array
+        output = llm_response.choices[0].message.content.strip()
+        # output = json.dumps(raw_output, ensure_ascii=False)  # Keep raw data for now
+
+    output_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "output/opportunities_output.json"))
     with open(output_file_path, "w", encoding="utf-8") as f:
-        if isinstance(output, str):
-            f.write(output)
-        else:
-            json.dump(output, f, indent=2, ensure_ascii=False)
+        # Always write the cleaned output (string)
+        f.write(output)
     return output_file_path
 
 # --- Streamlit UI remains unchanged below ---

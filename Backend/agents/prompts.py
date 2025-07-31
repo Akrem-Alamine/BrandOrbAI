@@ -107,3 +107,18 @@ Please provide a structured legal analysis covering:
 - Contractual recommendations
 Respond in clear bullet points.
 """
+
+OPPORTUNITIES_COMPANY_EXTRACTION_PROMPT = """
+Given a JSON object with a "companies" array, where each company contains many fields (including nested fields), extract ONLY the following fields for each company:
+- name
+- description
+- city (from address.city if present, otherwise empty string)
+- email
+- homepage
+- logoUrl
+- phoneNumber
+
+For each company, output a JSON object with ONLY these fields. If a field is missing or null, set its value to an empty string. For "city", extract from address.city if available; otherwise, use an empty string.
+
+Return a JSON array containing one object per company, with only these fields. Output ONLY the new JSON array, and nothing else.
+"""
