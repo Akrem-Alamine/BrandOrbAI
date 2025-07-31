@@ -1,77 +1,81 @@
 ```json
 {
   "financial_assessment": {
-    "business_concept": "An e-commerce platform selling men's clothing, targeting young professionals with a focus on quality, affordability, and sustainability.",
+    "business_concept": "A social media platform for users with a budget of 20,000 TND",
     "market_size_estimate_tam": {
-        "amount": "1000000000",
-        "justification": "Estimated using a top-down approach, considering the global men's apparel market size and the potential share of e-commerce within it."
+        "amount": "100,000,000",
+        "justification": "Estimated based on the total addressable market for social media platforms in the region, considering the population and internet penetration rate"
     },
     "estimated_initial_funding": {
-      "amount": "500000",
-      "justification": "Covers 9 months of runway for a team of 4, initial marketing, tech setup, and inventory costs."
+      "amount": "50,000",
+      "justification": "Covers 3 months of runway for a team of 2, initial marketing, and tech setup, considering the budget constraint of 20,000 TND"
     },
     "funding_breakdown": [
-      {"category": "Product Development", "amount": "150000", "description": "Development of the e-commerce platform, including design, backend, and frontend."},
-      {"category": "Marketing", "amount": "100000", "description": "Initial marketing campaigns to attract the first 1,000 customers, including social media, influencer partnerships, and targeted ads."},
-      {"category": "Salaries", "amount": "100000", "description": "Salaries for the founding team of 4 for the first 9 months."},
-      {"category": "Inventory and Logistics", "amount": "150000", "description": "Initial inventory purchase and setup of logistics and fulfillment processes."}
+      {"category": "Product Development", "amount": "15,000", "description": "Development of the social media platform's core features"},
+      {"category": "Marketing", "amount": "10,000", "description": "Initial marketing campaigns to acquire users"},
+      {"category": "Salaries", "amount": "10,000", "description": "Salaries for a 2-person team for 3 months"},
+      {"category": "Tech Setup", "amount": "5,000", "description": "Initial tech setup, including servers and software"},
+      {"category": "Contingency", "amount": "10,000", "description": "Contingency fund for unexpected expenses"}
     ],
     "estimated_monthly_burn_rate": {
-        "amount": "50000",
-        "justification": "Based on salaries for a 4-person team, software subscriptions, marketing spend, and inventory replenishment costs."
+        "amount": "10,000",
+        "justification": "Based on salaries for a 2-person team, software subscriptions, and marketing spend"
     },
     "estimated_time_to_break_even_months": {
-        "months": "12",
-        "justification": "Assumes acquiring 50 paying customers per month at an average order value of $100, with a customer acquisition cost of $20 and a gross margin of 30%."
+        "months": "6",
+        "justification": "Assumes acquiring 1,000 paying customers per month at 10 TND/month ARPU, with a customer acquisition cost of 5 TND per user"
     },
     "three_year_projections": {
       "estimated_annual_revenue_y3": {
-          "amount": "3000000",
-          "justification": "Based on reaching 10,000 paying customers at an average order value of $100, with a purchase frequency of 3 times per year."
+          "amount": "720,000",
+          "justification": "Based on reaching 6,000 paying customers at an average ARPU of 10 TND/mo"
       },
       "estimated_annual_profit_y3": {
-          "amount": "600000",
-          "justification": "Assumes gross margins of 40% and operating leverage as the team scales, with a focus on efficient marketing and logistics."
+          "amount": "288,000",
+          "justification": "Assumes gross margins of 80% and operating leverage as the team scales"
       },
       "expected_roi_3_years_percent": {
-          "percentage": "140",
-          "justification": "(Net Profit / Initial Investment) * 100, considering the initial investment and projected net profit after 3 years."
+          "percentage": "440",
+          "justification": "(Net Profit / Initial Investment) * 100, considering the initial investment of 50,000 TND"
       }
     },
     "revenue_streams": [
-      {"stream_name": "Direct Sales", "description": "Revenue from the sale of men's clothing through the e-commerce platform.", "estimated_annual_revenue_y3": "2500000", "assumptions": "Based on 8,000 customers purchasing 3 times a year at an average order value of $100."},
-      {"stream_name": "Affiliate Partnerships", "description": "Revenue from partnerships with complementary brands.", "estimated_annual_revenue_y3": "500000", "assumptions": "Based on partnerships with 5 brands, generating $100,000 each per year."}
+      {"stream_name": "Subscription Fees", "description": "Monthly subscription fees from users", "estimated_annual_revenue_y3": "720,000", "assumptions": "Based on 6,000 users paying 10 TND/month"},
+      {"stream_name": "Advertising", "description": "Advertising revenue from the platform", "estimated_annual_revenue_y3": "0", "assumptions": "Not considered in the initial projections due to the budget constraint"}
     ],
     "main_cost_drivers": [
       "Team Salaries & Compensation",
       "Customer Acquisition Costs",
-      "Inventory and Logistics Costs"
+      "Cloud Infrastructure & Software Tools"
     ],
     "cost_breakdown_monthly": [
-      {"category": "Salaries", "amount": "20000", "description": "Covers 4 full-time employees, including founders and key staff."},
-      {"category": "Marketing", "amount": "10000", "description": "Ongoing marketing efforts, including social media, content creation, and targeted advertising."},
-      {"category": "Inventory and Logistics", "amount": "15000", "description": "Monthly inventory replenishment and logistics costs, including shipping and fulfillment."}
+      {"category": "Salaries", "amount": "5,000", "description": "Covers 2-person team"},
+      {"category": "Marketing", "amount": "2,000", "description": "Ongoing marketing campaigns"},
+      {"category": "Software", "amount": "1,000", "description": "Software subscriptions and tools"},
+      {"category": "Cloud Infrastructure", "amount": "1,000", "description": "Cloud infrastructure costs"}
     ],
     "cash_flow_projection_annual": [
-      {"year": 1, "inflow": "600000", "outflow": "500000", "net_cash_flow": "100000"},
-      {"year": 2, "inflow": "1200000", "outflow": "800000", "net_cash_flow": "400000"},
-      {"year": 3, "inflow": "3000000", "outflow": "1500000", "net_cash_flow": "1500000"}
+      {"year": 1, "inflow": "120,000", "outflow": "120,000", "net_cash_flow": "0"},
+      {"year": 2, "inflow": "240,000", "outflow": "180,000", "net_cash_flow": "60,000"},
+      {"year": 3, "inflow": "720,000", "outflow": "432,000", "net_cash_flow": "288,000"}
     ],
     "potential_risks": [
-      {"risk": "Market Competition", "impact": "High", "description": "The men's apparel market is highly competitive, with both established brands and new entrants vying for market share."},
-      {"risk": "Supply Chain Disruptions", "impact": "Medium", "description": "Dependence on suppliers for inventory, with potential risks of delays or quality issues."}
+      {"risk": "Competition from established social media platforms", "impact": "High", "description": "The social media market is highly competitive, and the platform may struggle to acquire users"},
+      {"risk": "Technical issues and downtime", "impact": "Medium", "description": "Technical issues could lead to user dissatisfaction and churn"},
+      {"risk": "Regulatory changes", "impact": "Low", "description": "Changes in regulations could affect the platform's operations, but this is considered a low-risk scenario"}
     ],
     "mitigation_strategies": [
-      {"risk": "Market Competition", "strategy": "Focus on niche markets, build strong brand identity, and invest in customer retention programs."},
-      {"risk": "Supply Chain Disruptions", "strategy": "Diversify suppliers, implement robust quality control measures, and maintain open communication channels with suppliers."}
+      {"risk": "Competition from established social media platforms", "strategy": "Focus on a niche audience and provide unique features to differentiate the platform"},
+      {"risk": "Technical issues and downtime", "strategy": "Invest in robust infrastructure and have a backup plan in place"},
+      {"risk": "Regulatory changes", "strategy": "Monitor regulatory changes and adapt the platform's operations accordingly"}
     ],
     "key_growth_factors": [
-      "High customer retention due to quality products and excellent customer service",
-      "Scalable customer acquisition channels, including social media and influencer partnerships"
+      "High customer retention due to unique features and user engagement",
+      "Scalable customer acquisition channels, such as influencer marketing and partnerships"
     ],
     "financial_success_likelihood": {
         "rating": "Medium",
-        "justification": "The business has a solid foundation with a clear value proposition, but faces significant competition and supply chain risks. Success will depend on effective execution of the business plan, mitigation of identified risks, and adaptation to market changes."
+        "justification": "The platform has a unique value proposition, but the social media market is highly competitive, and the budget constraint may limit the platform's ability to acquire users and scale"
     }
   }
 }
