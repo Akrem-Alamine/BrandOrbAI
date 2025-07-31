@@ -107,3 +107,24 @@ Please provide a structured legal analysis covering:
 - Contractual recommendations
 Respond in clear bullet points.
 """
+
+BMC_EXTRACTION_PROMPT = (
+    "{files_section}\n"
+    "Given the above files, extract as much information as possible for each of the nine Business Model Canvas (BMC) parts. "
+    "If a part cannot be determined, leave it empty. "
+    "Return the result as a valid JSON object with these keys: "
+    "{bmc_parts}. "
+    "Format your response as:\n"
+    "{\n"
+    "  \"Key Partners\": \"...\",\n"
+    "  \"Key Activities\": \"...\",\n"
+    "  \"Key Resources\": \"...\",\n"
+    "  \"Value Propositions\": \"...\",\n"
+    "  \"Customer Relationships\": \"...\",\n"
+    "  \"Channels\": \"...\",\n"
+    "  \"Customer Segments\": \"...\",\n"
+    "  \"Cost Structure\": \"...\",\n"
+    "  \"Revenue Streams\": \"...\"\n"
+    "}\n"
+    "JSON:"
+)

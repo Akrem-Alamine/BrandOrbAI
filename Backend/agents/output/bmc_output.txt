@@ -1,0 +1,27 @@
+Key Partners:
+["Suppliers of men's clothing, such as Serusa & iSSeymen Tekstil San. Tic. Ltd., Kavala Tekstil San.Tic.Ltd.Sti., and Sartello Textile", 'Logistics and fulfillment partners', 'Marketing and advertising agencies', 'Influencer partnerships']
+
+Key Activities:
+["Sourcing and procuring high-quality, affordable, and sustainable men's clothing", 'Designing and developing an e-commerce platform', 'Marketing and promoting the brand to attract young professionals', 'Building and maintaining relationships with suppliers and logistics partners', 'Managing inventory and fulfillment']
+
+Key Resources:
+['Initial funding of $500,000', 'E-commerce platform and technology infrastructure', 'Team of 4 full-time employees, including founders and key staff', 'Marketing budget', 'Inventory and logistics costs']
+
+Value Propositions:
+["Quality, affordability, and sustainability in men's clothing", 'Convenient and user-friendly e-commerce platform', 'Excellent customer service', 'Fast and reliable shipping and fulfillment']
+
+Customer Relationships:
+['Personalized customer service', 'Regular communication through social media and email', 'Loyalty programs and customer retention initiatives']
+
+Channels:
+['E-commerce platform', 'Social media marketing', 'Influencer partnerships', 'Targeted advertising']
+
+Customer Segments:
+['Young professionals', 'Men aged 25-45', 'Individuals seeking high-quality, affordable, and sustainable clothing']
+
+Cost Structure:
+['Team salaries and compensation', 'Customer acquisition costs', 'Inventory and logistics costs', 'Marketing and advertising expenses']
+
+Revenue Streams:
+["Direct sales of men's clothing through the e-commerce platform", 'Affiliate partnerships with complementary brands']
+
