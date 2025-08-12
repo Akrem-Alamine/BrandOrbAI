@@ -1,0 +1,31 @@
+# Environnements virtuels
+venv/
+.env/
+.envrc
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# Fichiers audio générés
+*.wav
+
+# Fichiers de configuration locaux
+*.env
+
+# Dossiers et fichiers de Streamlit
+.streamlit/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# PDF d'exemple (optionnel, retire si tu veux versionner tes PDF)
+*.pdf
