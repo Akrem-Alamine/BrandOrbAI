@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrandOrbAI - Impara Python in modo semplice e veloce</title>
+  <meta name="description" content="BrandOrbAI è una piattaforma educativa online che offre lezioni di Python in italiano, accessibili a tutti. Inizia gratuitamente e cresci con noi!">
+  <meta name="keywords" content="imparare Python online Italia, corso Python principianti, apprendimento Python mobile, Python tutorial italiano, programmazione Python facile">
+  <meta property="og:title" content="BrandOrbAI - Impara Python in modo semplice">
+  <meta property="og:description" content="Lezioni di Python in italiano per principianti, professionisti e appassionati. Unisciti alla nostra community e inizia ora!">
+  <meta property="og:image" content="https://image.pollinations.ai/prompt/BrandOrbAI%20Python%20education%20modern%20hero%20italian%20language">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BrandOrbAI - Impara Python in modo semplice">
+  <meta name="twitter:description" content="Lezioni di Python in italiano per principianti, professionisti e appassionati. Unisciti alla nostra community e inizia ora!">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    @import "tailwindcss";
+
+    @layer base {
+      :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+        --primary: 221.2 83.2% 53.3%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 222.2 47.4% 11.2%;
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+        --accent: 210 40% 96.1%;
+        --accent-foreground: 222.2 47.4% 11.2%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 221.2 83.2% 53.3%;
+        --radius: 0.65rem;
+        
+        --surface: 0 0% 100%;
+        --surface-foreground: 222.2 84% 4.9%;
+        --surface-muted: 210 40% 97%;
+        --surface-hover: 210 40% 94%;
+        --surface-accent: 221.2 83.2% 53.3%;
+        
+        --gradient-from: 221.2 83.2% 53.3%;
+        --gradient-to: 262.1 83.3% 57.8%;
+        
+        --chart-1: 12 76% 61%;
+        --chart-2: 173 58% 39%;
+        --chart-3: 197 37% 24%;
+        --chart-4: 43 74% 66%;
+        --chart-5: 27 87% 67%;
+      }
+
+      .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 217.2 91.2% 59.8%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+        
+        --surface: 222.2 84% 4.9%;
+        --surface-foreground: 210 40% 98%;
+        --surface-muted: 217.2 32.6% 17.5%;
+        --surface-hover: 217.2 32.6% 20%;
+        --surface-accent: 217.2 91.2% 59.8%;
+        
+        --gradient-from: 217.2 91.2% 59.8%;
+        --gradient-to: 262.1 83.3% 67.8%;
+        
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+      }
+    }
+
+    @layer base {
+      * {
+        border-color: hsl(var(--border));
+        transition: border-color 0.3s ease;
+      }
+      
+      body {
+        background-color: hsl(var(--background)) !important;
+        color: hsl(var(--foreground));
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+        font-feature-settings: "rlig" 1, "calt" 1;
+      }
+
+      *:focus,
+      *:focus-visible {
+        outline: none !important;
+        box-shadow: none;
+      }
+    }
+
+    @layer utilities {
+      .bg-surface { background-color: hsl(var(--surface)); }
+      .bg-surface-muted { background-color: hsl(var(--surface-muted)); }
+      .bg-surface-hover { background-color: hsl(var(--surface-hover)); }
+      .text-surface { color: hsl(var(--surface-foreground)); }
+      .text-surface-muted { color: hsl(var(--muted-foreground)); }
+      .text-surface-accent { color: hsl(var(--surface-accent)); }
+      .border-surface { border-color: hsl(var(--border)); }
+      .border-surface-accent { border-color: hsl(var(--surface-accent)); }
+      .bg-primary { background-color: hsl(var(--primary)); }
+      .text-primary { color: hsl(var(--primary)); }
+      .border-primary { border-color: hsl(var(--primary)); }
+      .bg-muted { background-color: hsl(var(--muted)); }
+      .text-foreground { color: hsl(var(--foreground)) !important; }
+      
+      .gradient-text {
+        background: linear-gradient(135deg, hsl(var(--gradient-from)) 0%, hsl(var(--gradient-to)) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .glass {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      
+      .dark .glass {
+        background: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .animate-fadeInUp {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+
+    .animate-fadeIn {
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+
+    .animate-slideInLeft {
+      animation: slideInLeft 0.6s ease-out forwards;
+    }
+
+    .delay-100 { animation-delay: 100ms; }
+    .delay-200 { animation-delay: 200ms; }
+    .delay-300 { animation-delay: 300ms; }
+    .delay-500 { animation-delay: 500ms; }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-surface text-surface">
+  <!-- Header -->
+  <header class="fixed top-0 w-full bg-surface/95 backdrop-blur-sm border-b border-surface shadow-soft z-50">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+            <i class="fas fa-rocket text-white text-sm"></i>
+          </div>
+          <span class="text-xl font-bold gradient-text">BrandOrbAI</span>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#hero" class="text-sm font-medium hover:text-primary transition-colors">Home</a>
+          <a href="#about" class="text-sm font-medium hover:text-primary transition-colors">Chi Siamo</a>
+          <a href="#courses" class="text-sm font-medium hover:text-primary transition-colors">Corsi</a>
+          <a href="#pricing" class="text-sm font-medium hover:text-primary transition-colors">Prezzi</a>
+          <a href="#testimonials" class="text-sm font-medium hover:text-primary transition-colors">Testimonianze</a>
+          <a href="#contact" class="text-sm font-medium hover:text-primary transition-colors">Contatti</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-surface-muted transition-colors">
+            <i class="fas fa-moon dark:fa-sun"></i>
+          </button>
+        </div>
+        
+        <button id="mobile-menu-toggle" class="md:hidden p-2">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+        <a href="#hero" class="block py-2 text-sm">Home</a>
+        <a href="#about" class="block py-2 text-sm">Chi Siamo</a>
+        <a href="#courses" class="block py-2 text-sm">Corsi</a>
+        <a href="#pricing" class="block py-2 text-sm">Prezzi</a>
+        <a href="#testimonials" class="block py-2 text-sm">Testimonianze</a>
+        <a href="#contact" class="block py-2 text-sm">Contatti</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-400"></div>
+    <img src="https://image.pollinations.ai/prompt/professional%20EdTech%20Online%20Education%20business%20hero%20background%20modern%20elegant%20design%20BrandOrbAI%20brand%20high%20quality%204k" 
+         alt="BrandOrbAI Hero Background" 
+         class="absolute inset-0 w-full h-full object-cover opacity-20">
+    
+    <div class="relative z-10 container mx-auto px-4 text-center text-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fadeInUp">
+        Impara Python in modo
+        <span class="block gradient-text">semplice e veloce</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto opacity-90 animate-fadeInUp delay-100">
+        BrandOrbAI è la piattaforma educativa che rende la programmazione accessibile a tutti. 
+        Lezioni bite-size, mentorship personalizzata e una community italiana pronta ad aiutarti.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-200">
+        <a href="#courses" class="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Inizia Gratuitamente
+        </a>
+        <a href="#about" class="px-8 py-4 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+          Scopri di più
+        </a>
+      </div>
+    </div>
+    
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-white text-2xl"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-surface-muted">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">Chi siamo</h2>
+        <p class="text-lg text-surface-muted mb-8">
+          BrandOrbAI è una piattaforma di gestione del marchio alimentata dall'intelligenza artificiale 
+          che aiuta le aziende a creare, gestire e ottimizzare la propria identità di marca su tutti i canali digitali.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-gentle transition-shadow">
+          <div class="w-12 h-12 bg-primary rounded-lg mb-4 flex items-center justify-center">
+            <i class="fas fa-graduation-cap text-white"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Missione</h3>
+          <p class="text-surface-muted">
+            Democratizzare l'apprendimento della programmazione rendendolo accessibile a chiunque, 
+            indipendentemente dal background tecnico.
+          </p>
+        </div>
+        
+        <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-gentle transition-shadow">
+          <div class="w-12 h-12 bg-primary rounded-lg mb-4 flex items-center justify-center">
+            <i class="fas fa-users text-white"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Community</h3>
+          <p class="text-surface-muted">
+            Una community italiana attiva dove studenti, mentori e professionisti si incontrano 
+            per crescere insieme nel mondo Python.
+          </p>
+        </div>
+        
+        <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-gentle transition-shadow">
+          <div class="w-12 h-12 bg-primary rounded-lg mb-4 flex items-center justify-center">
+            <i class="fas fa-rocket text-white"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Innovazione</h3>
+          <p class="text-surface-muted">
+            Metodologia didattica all'avanguardia che combina lezioni concise, progetti pratici 
+            e supporto personalizzato per risultati ottimali.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="py-20 bg-surface">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">I nostri corsi</h2>
+        <p class="text-lg text-surface-muted max-w-2xl mx-auto">
+          Percorsi di apprendimento pensati per o

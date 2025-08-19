@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BrandOrbAI - AI-powered brand management platform for online education">
+    <meta name="keywords" content="Python education, Online learning platform, Accessible Python skills">
+    <title>BrandOrbAI - Learn Python with AI-powered Online Education Platform</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2563eb;
+            color: #fff;
+        }
+        
+        .header .logo {
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .header .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header .nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.2s ease;
+        }
+        
+        .header .nav a:hover {
+            color: #93c5fd;
+        }
+        
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://image.pollinations.ai/prompt/professional%20E-Learning%20business%20hero%20background%20modern%20elegant%20design%20BrandOrbAI%20brand%20high%20quality');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        
+        .hero .heading {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .hero .description {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .hero .cta {
+            background-color: #1e40af;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        
+        .hero .cta:hover {
+            background-color: #3b82f6;
+        }
+        
+        .about {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .about .image {
+            width: 50%;
+            height: 300px;
+            background-image: url('https://image.pollinations.ai/prompt/professional%20E-Learning%20team%20working%20modern%20office%20environment%20BrandOrbAI%20business%20setting');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+        
+        .about .content {
+            width: 50%;
+            padding: 20px;
+        }
+        
+        .about .heading {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .about .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .services .service {
+            width: 33.33%;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        
+        .services .service .heading {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .services .service .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .services .service .image {
+            width: 100%;
+            height: 150px;
+            background-image: url('https://image.pollinations.ai/prompt/high%20quality%20E-Learning%20services%20presentation%20modern%20professional%20design%20BrandOrbAI');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+        
+        .why-choose {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .why-choose .heading {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .why-choose .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .testimonials .testimonial {
+            width: 33.33%;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        
+        .testimonials .testimonial .heading {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .testimonials .testimonial .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        
+        .contact .heading {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .contact .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .contact .cta {
+            background-color: #1e40af;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        
+        .contact .cta:hover {
+            background-color: #3b82f6;
+        }
+        
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2563eb;
+            color: #fff;
+        }
+        
+        .footer .logo {
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .footer .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer .nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.2s ease;
+        }
+        
+        .footer .nav a:hover {
+            color: #93c5fd;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">BrandOrbAI</a>
+            <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="heading">Learn Python with AI-powered Online Education Platform</h1>
+                <p class="description">BrandOrbAI is an AI-powered brand management platform that helps businesses create, manage, and optimize their brand identity across all digital channels.</p>
+                <button class="cta">Start Learning Python Today!</button>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="image"></div>
+                <div class="content">
+                    <h2 class="heading">About Us</h2>
+                    <p class="description">BrandOrbAI is an AI-powered brand management platform that helps businesses create, manage, and optimize their brand identity across all digital channels.</p>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="service">
+                    <h3 class="heading">Free Introductory Lessons and Resources</h3>
+                    <p class="description">Get started with our free introductory lessons and resources to learn the basics of Python.</p>
+                    <div class="image"></div>
+                </div>
+                <div class="service">
+                    <h3 class="heading">Premium Features with Personalized Mentorship and Advanced Projects</h3>
+                    <p class="description">Take your Python skills to the next level with our premium features, personalized mentorship, and advanced projects.</p>
+                    <div class="image"></div>
+                </div>
+            </div>
+        </section>
+        <section class="why-choose">
+            <div class="container">
+                <h2 class="heading">Why Choose BrandOrbAI?</h2>
+                <p class="description">Our user-friendly approach and personalized support and mentorship make us the perfect choice for individuals seeking to acquire Python skills.</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonial">
+                    <h3 class="heading">John Doe</h3>
+                    <p class="description">"BrandOrbAI is an excellent platform for learning Python. The personalized mentorship and advanced projects helped me to improve my skills significantly."</p>
+                </div>
+                <div class="testimonial">
+                    <h3 class="heading">Jane Smith</h3>
+                    <p class="description">"I was impressed by the user-friendly approach of BrandOrbAI. The free introductory lessons and resources were very helpful in getting started with Python."</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="heading">Get in Touch</h2>
+                <p class="description">Contact us to learn more about our AI-powered online education platform and how it can help you acquire Python skills.</p>
+                <button class="cta">Contact Us</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">BrandOrbAI</a>
+            <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        // Add event listeners to navigation links
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', event => {
+                event.preventDefault();
+                // Add your navigation logic here
+            });
+        });
+        
+        // Add event listener to contact form
+        document.querySelector('.contact .cta').addEventListener('click', event => {
+            event.preventDefault();
+            // Add your contact form logic here
+        });
+    </script>
+</body>
+</html>

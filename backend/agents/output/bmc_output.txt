@@ -1,0 +1,27 @@
+Key Partners:
+Educational institutions, companies, instructors, content creators
+
+Key Activities:
+Developing and maintaining the e-learning platform, creating and curating high-quality content, marketing and promoting the platform, establishing partnerships with educational institutions and companies
+
+Key Resources:
+Development team, marketing team, customer support team, servers, software, and technology infrastructure
+
+Value Propositions:
+Comprehensive and accessible online learning experience for Python programming, focus on accessibility and user experience, high-quality content and instructors
+
+Customer Relationships:
+Personalized learning experience, community support, regular updates and feedback
+
+Channels:
+Social media, targeted advertising, partnerships with educational institutions and companies, online marketing campaigns
+
+Customer Segments:
+Young adults, professionals, individuals interested in learning Python programming
+
+Cost Structure:
+Team salaries and compensation, customer acquisition costs, cloud infrastructure and software tools, marketing expenses
+
+Revenue Streams:
+Subscription fees from customers, potential revenue from advertising
+

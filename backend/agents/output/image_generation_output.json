@@ -1,0 +1,11 @@
+{
+  "image_url": "https://image.pollinations.ai/prompt/cozy-home-office-with-laptop-open-on-python-tutorial-website-natural-window-lighting-soft-shadows-person-in-background-typing-on-keyboard-neutral-color-palette-professional-photography-shallow-depth-o?width=1344&height=640&model=flux&nologo=true&private=true&seed=716456",
+  "business_idea": "I want to  make a company that help people to learn about python e-learn",
+  "generated_at": "2025-08-08T14:19:26.103594",
+  "status": "success",
+  "local_path": "D:\\Tek-UP\\Internship\\Summer2025\\BrandOrbAI\\backend\\agents\\output\\images\\I_want_to__make_a_company_that_help_people_to_learn_about_python_e-learn_1754659160.jpg",
+  "filename": "I_want_to__make_a_company_that_help_people_to_learn_about_python_e-learn_1754659160.jpg",
+  "file_size": 123662,
+  "serve_url": "http://localhost:8001/images/I_want_to__make_a_company_that_help_people_to_learn_about_python_e-learn_1754659160.jpg",
+  "has_base64": true
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandOrbAI - Piattaforma AI per Gestione Brand | E-Learning Professionale</title>
+    <meta name="description" content="BrandOrbAI è una piattaforma AI-powered per la gestione del brand che aiuta le aziende a creare, gestire e ottimizzare la loro identità di marca su tutti i canali digitali.">
+    <meta name="keywords" content="learn Python online, Python course Italy, beginner Python tutorial, Python certification, Python mentorship, brand management AI, AI brand optimization">
+    <meta property="og:title" content="BrandOrbAI - Piattaforma AI per Gestione Brand">
+    <meta property="og:description" content="Scopri BrandOrbAI, la piattaforma AI che rivoluziona il brand management per aziende moderne.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brandorbai.it">
+    <meta property="og:image" content="https://image.pollinations.ai/prompt/BrandOrbAI%20AI%20brand%20management%20platform%20professional%20modern%20design%20logo">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@BrandOrbAI">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import "tailwindcss";
+        :root {
+            --brand-primary: #2563eb;
+            --brand-secondary: #1e40af;
+            --brand-accent: #3b82f6;
+            --brand-light: #60a5fa;
+            --brand-lighter: #93c5fd;
+        }
+        @layer base {
+            :root {
+                --background: 0 0% 100%;
+                --foreground: 222.2 84% 4.9%;
+                --card: 0 0% 100%;
+                --card-foreground: 222.2 84% 4.9%;
+                --popover: 0 0% 100%;
+                --popover-foreground: 222.2 84% 4.9%;
+                --primary: 221.2 83.2% 53.3%;
+                --primary-foreground: 0 0% 100%;
+                --secondary: 210 40% 96.1%;
+                --secondary-foreground: 222.2 47.4% 11.2%;
+                --muted: 210 40% 96.1%;
+                --muted-foreground: 215.4 16.3% 46.9%;
+                --accent: 210 40% 96.1%;
+                --accent-foreground: 222.2 47.4% 11.2%;
+                --destructive: 0 84.2% 60.2%;
+                --destructive-foreground: 0 0% 100%;
+                --border: 214.3 31.8% 91.4%;
+                --input: 214.3 31.8% 91.4%;
+                --ring: 221.2 83.2% 53.3%;
+                --radius: 0.65rem;
+                --surface: 0 0% 100%;
+                --surface-foreground: 222.2 84% 4.9%;
+                --surface-muted: 210 40% 97%;
+                --surface-hover: 210 40% 94%;
+                --surface-accent: 221.2 83.2% 53.3%;
+                --gradient-from: 221.2 83.2% 53.3%;
+                --gradient-to: 262.1 83.3% 57.8%;
+                --chart-1: 12 76% 61%;
+                --chart-2: 173 58% 39%;
+                --chart-3: 197 37% 24%;
+                --chart-4: 43 74% 66%;
+                --chart-5: 27 87% 67%;
+            }
+            .dark {
+                --background: 222.2 84% 4.9%;
+                --foreground: 210 40% 98%;
+                --card: 222.2 84% 4.9%;
+                --card-foreground: 210 40% 98%;
+                --popover: 222.2 84% 4.9%;
+                --popover-foreground: 210 40% 98%;
+                --primary: 217.2 91.2% 59.8%;
+                --primary-foreground: 222.2 47.4% 11.2%;
+                --secondary: 217.2 32.6% 17.5%;
+                --secondary-foreground: 210 40% 98%;
+                --muted: 217.2 32.6% 17.5%;
+                --muted-foreground: 215 20.2% 65.1%;
+                --accent: 217.2 32.6% 17.5%;
+                --accent-foreground: 210 40% 98%;
+                --destructive: 0 62.8% 30.6%;
+                --destructive-foreground: 210 40% 98%;
+                --border: 217.2 32.6% 17.5%;
+                --input: 217.2 32.6% 17.5%;
+                --ring: 224.3 76.3% 48%;
+                --surface: 222.2 84% 4.9%;
+                --surface-foreground: 210 40% 98%;
+                --surface-muted: 217.2 32.6% 17.5%;
+                --surface-hover: 217.2 32.6% 20%;
+                --surface-accent: 217.2 91.2% 59.8%;
+                --gradient-from: 217.2 91.2% 59.8%;
+                --gradient-to: 262.1 83.3% 67.8%;
+                --chart-1: 220 70% 50%;
+                --chart-2: 160 60% 45%;
+                --chart-3: 30 80% 55%;
+                --chart-4: 280 65% 60%;
+                --chart-5: 340 75% 55%;
+            }
+        }
+        @layer base {
+            * { border-color: hsl(var(--border)); transition: border-color 0.3s ease; }
+            body {
+                background-color: hsl(var(--background)) !important;
+                color: hsl(var(--foreground));
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+            html { scroll-behavior: smooth; font-feature-settings: "rlig" 1, "calt" 1; }
+            html[data-theme-loading="true"] * { transition: none !important; }
+            .bg-surface, .bg-surface-muted, .bg-surface-hover, .text-surface, .text-surface-muted, .text-surface-accent, .border-surface, .bg-primary, .text-primary, .border-primary, .bg-muted {
+                transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+            }
+        }
+        @layer utilities {
+            .bg-surface { background-color: hsl(var(--surface)); }
+            .bg-surface-muted { background-color: hsl(var(--surface-muted)); }
+            .bg-surface-hover { background-color: hsl(var(--surface-hover)); }
+            .text-surface { color: hsl(var(--surface-foreground)); }
+            .text-surface-muted { color: hsl(var(--muted-foreground)); }
+            .text-surface-accent { color: hsl(var(--surface-accent)); }
+            .border-surface { border-color: hsl(var(--border)); }
+            .border-surface-accent { border-color: hsl(var(--surface-accent)); }
+            .bg-primary { background-color: hsl(var(--primary)); }
+            .text-primary { color: hsl(var(--primary)); }
+            .border-primary { border-color: hsl(var(--primary)); }
+            .bg-muted { background-color: hsl(var(--muted)); }
+            .text-foreground { color: hsl(var(--foreground)) !important; }
+            .gradient-text {
+                background: linear-gradient(135deg, hsl(var(--gradient-from)) 0%, hsl(var(--gradient-to)) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .shadow-subtle { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
+            .shadow-soft { box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); }
+            .shadow-gentle { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+            .shadow-card { box-shadow: 0 2px 8px -2px rgb(0 0 0 / 0.08), 0 1px 3px -1px rgb(0 0 0 / 0.05); }
+            .dark .shadow-subtle { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.3); }
+            .dark .shadow-soft { box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.3); }
+            .dark .shadow-gentle { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3); }
+            .dark .shadow-card { box-shadow: 0 2px 8px -2px rgb(0 0 0 / 0.4), 0 1px 3px -1px rgb(0 0 0 / 0.25); }
+        }
+        @media (prefers-contrast: high) {
+            :root { --foreground: 0 0% 0%; --background: 0 0% 100%; --muted-foreground: 0 0% 20%; }
+            .dark { --foreground: 0 0% 100%; --background: 0 0% 0%; --muted-foreground: 0 0% 80%; }
+        }
+        *:focus, *:focus-visible { outline: none !important; box-shadow: none; }
+        button:focus, input:focus, textarea:focus, select:focus { outline: none !important; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        @keyframes shimmer { 0% { background-position: -200px 0; } 100% { background-position: calc(200px + 100%) 0; } }
+        @keyframes skeleton-wave { 0% { transform: translateX(-100%); } 50% { transform: translateX(100%); } 100% { transform: translateX(100%); } }
+        @keyframes bounce { 0%, 100% { transform: translateY(-25%); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); } 50% { transform: none; animation-timing-function: cubic-bezier(0, 0, 0.2, 1); } }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .animate-shimmer { animation: shimmer 1.5s ease-in-out infinite; background: linear-gradient(90deg, hsl(var(--muted)) 25%, hsl(var(--muted-foreground) / 0.1) 50%, hsl(var(--muted)) 75%); background-size: 200px 100%; background-repeat: no-repeat; }
+        .animate-skeleton-wave { position: relative; overflow: hidden; }
+        .animate-skeleton-wave::after { position: absolute; top: 0; right: 0; bottom: 0; left: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, hsl(var(--background) / 0.6), transparent); animation: skeleton-wave 1.6s ease-in-out infinite; content: ''; }
+        .animate-bounce { animation: bounce 1s infinite; }
+        .animate-delay-100 { animation-delay: 100ms; }
+        .animate-delay-200 { animation-delay: 200ms; }
+        .animate-delay-300 { animation-delay: 300ms; }
+        .animate-delay-500 { animation-delay: 500ms; }
+        .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .dark .glass { background: rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.1); }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+            .animate-pulse, .animate-shimmer, .animate-skeleton-wave, .animate-bounce { animation: none !important; }
+            .animate-skeleton-wave::after { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-surface text-foreground">
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-surface">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="text-2xl font-bold gradient-text">BrandOrbAI</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-surface-muted hover:text-surface-accent transition-colors">Chi Siamo</a>
+                    <a href="#services" class="text-surface-muted hover:text-surface-accent transition-colors">Servizi</a>
+                    <a href="#testimonials" class="text-surface-muted hover:text-surface-accent transition-colors">Testimonianze</a>
+                    <a href="#contact" class="text-surface-muted hover:text-surface-accent transition-colors">Contatti</a>
+                    <button id="theme-toggle" class="p-2 rounded-full hover:bg-surface-muted transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-toggle" class="p-2 rounded-md hover:bg-surface-muted transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden py-4 space-y-4">
+                <a href="#about" class="block text-surface-muted hover:text-surface-accent transition-colors">Chi Siamo</a>
+                <a href="#services" class="block text-surface-muted hover:text-surface-accent transition-colors">Servizi</a>
+                <a href="#testimonials" class="block text-surface-muted hover:text-surface-accent transition-colors">Testimonianze</a>
+                <a href="#contact" class="block text-surface-muted hover:text-surface-accent transition-colors">Contatti</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-brand-primary via-brand-secondary to-brand-accent opacity-10"></div>
+        <img src="https://image.pollinations.ai/prompt/professional%20E-Learning%20EdTech%20business%20hero%20background%20modern%20elegant%20design%20BrandOrbAI%20brand%20high%20quality%204k" alt="BrandOrbAI Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-20">
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+                <span class="gradient-text">BrandOrbAI</span>
+                <br>
+                <span class="text-3xl md:text-4xl">Piattaforma AI per il Brand Management</span

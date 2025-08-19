@@ -1,0 +1,18 @@
+# Additional requirements for self-hosted vectorization service
+# Add these to your main requirements.txt
+
+# Background removal (local, no API keys)
+rembg>=2.0.50
+
+# Image processing
+Pillow>=10.0.0
+
+# Already in main requirements (but listed for completeness):
+# fastapi
+# uvicorn[standard]
+# requests
+
+# System dependencies (install separately):
+# Ubuntu/Debian: sudo apt install potrace autotrace imagemagick
+# macOS: brew install potrace autotrace imagemagick
+# Windows: Use chocolatey or MSYS2

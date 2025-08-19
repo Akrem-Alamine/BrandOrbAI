@@ -1,0 +1,60 @@
+{
+  "market_difficulty": 7,
+  "success_probability": 60,
+  "risk_level": "medium",
+  "funding_difficulty": 4,
+  "time_to_profitability": 12,
+  "market_opportunity_score": 8,
+  "competition_intensity": 6,
+  "regulatory_complexity": 5,
+  "overall_viability_score": 55,
+  "startup_budget_amount": 100,
+  "startup_budget_currency": "USD",
+  "budget_adequacy": "insufficient",
+  "key_success_factors": [
+    "user-friendly interface",
+    "comprehensive course content",
+    "effective marketing strategy"
+  ],
+  "major_risks": [
+    "intense competition",
+    "limited financial resources",
+    "rapidly changing technology"
+  ],
+  "recommendations": [
+    "develop a unique value proposition",
+    "focus on building a strong online presence",
+    "seek partnerships with relevant organizations"
+  ],
+  "financial_health": {
+    "startup_cost_assessment": "medium",
+    "revenue_potential": "medium",
+    "break_even_feasibility": "fair"
+  },
+  "market_position": {
+    "competitive_advantage": "moderate",
+    "market_timing": "fair",
+    "target_market_size": "medium"
+  },
+  "execution_difficulty": {
+    "technical_complexity": "medium",
+    "operational_complexity": "medium",
+    "skill_requirements": "medium"
+  },
+  "currency_info": {
+    "primary_currency": "USD",
+    "currency_symbol": "USD",
+    "conversion_notes": "no conversion necessary"
+  },
+  "business_context": {
+    "business_type": "E-Learning Platform",
+    "industry": "Technology",
+    "target_market": "Global",
+    "product_category": "Online Learning Platform",
+    "budget": 100,
+    "currency": "USD",
+    "target_demographic": "Individuals seeking to acquire Python skills, including beginners, professionals, and hobbyists",
+    "location": "Online",
+    "fulfillment": "Online"
+  }
+}

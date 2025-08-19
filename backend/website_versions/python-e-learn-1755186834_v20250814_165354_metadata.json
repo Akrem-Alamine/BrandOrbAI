@@ -1,0 +1,70 @@
+{
+  "version_id": "python-e-learn-1755186834_v20250814_165354",
+  "website_id": "python-e-learn-1755186834",
+  "timestamp": "20250814_165354",
+  "user_prompt": "",
+  "analysis": {
+    "company_name": "Python E-Learn",
+    "industry": "E-Learning / EdTech",
+    "business_type": "Subscription-based online education platform",
+    "target_audience": "Beginners, professionals, hobbyists, and businesses in Italy seeking to learn or upskill in Python",
+    "unique_value_proposition": "Making Python education accessible to everyone through bite-sized, user-friendly lessons and personalized mentorship",
+    "key_services": [
+      "Interactive Python courses",
+      "Personalized mentorship",
+      "Community forum support",
+      "Advanced projects & certifications",
+      "Corporate training packages"
+    ],
+    "competitive_advantages": [
+      "Speed to market",
+      "Niche focus on Python",
+      "User-friendly bite-sized lessons",
+      "Personalized mentorship",
+      "Italian market localization"
+    ],
+    "brand_colors": [
+      "#2563eb",
+      "#1e40af",
+      "#3b82f6",
+      "#60a5fa",
+      "#93c5fd"
+    ],
+    "brand_personality": "Innovative, Professional, Trustworthy, Modern, Intelligent",
+    "website_sections": [
+      "hero",
+      "about",
+      "courses",
+      "pricing",
+      "testimonials",
+      "community",
+      "contact"
+    ],
+    "call_to_action": "Start Learning Python Free",
+    "seo_keywords": [
+      "learn Python online",
+      "Python course Italy",
+      "beginner Python tutorial",
+      "Python certification",
+      "Python mentorship"
+    ],
+    "tone_of_voice": "Friendly, supportive, authoritative",
+    "business_model": "B2C (freemium subscription) + B2B (corporate training)",
+    "stage": "startup",
+    "key_metrics": [
+      "Monthly active users",
+      "Course completion rate",
+      "Subscription conversion rate",
+      "Customer lifetime value"
+    ],
+    "social_proof_elements": [
+      "Student testimonials",
+      "Success stories",
+      "Certification badges",
+      "Community forum activity"
+    ]
+  },
+  "file_size": 13838,
+  "company_name": "Python E-Learn",
+  "industry": "E-Learning / EdTech"
+}

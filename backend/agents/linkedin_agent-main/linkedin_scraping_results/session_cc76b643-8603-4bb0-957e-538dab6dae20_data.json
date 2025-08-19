@@ -1,0 +1,194 @@
+[
+  {
+    "activity_urn": "7355962851099860992",
+    "full_urn": "urn:li:ugcPost:7355962850546237440",
+    "post_url": "https://www.linkedin.com/posts/microsoft_from-dinner-tables-in-amsterdam-to-offices-activity-7355962851099860992-FvsF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF2qykUBt8TFBE1tZB8t9lfbLD56SoOswpc",
+    "text": "From dinner tables in Amsterdam to offices across Oceania, July's edition of The Monthly Tech-In highlights how Microsoft AI is helping people plan smarter and connect more meaningfully, driving innovation that supports real life.\n\nIt’s a closer look at the human side of innovation and how Microsoft technology is quietly showing up in the moments that matter.",
+    "posted_at": {
+      "relative": "2w",
+      "is_edited": false,
+      "date": "2025-07-29 16:10:10",
+      "timestamp": 1753798210883
+    },
+    "post_language_code": "en",
+    "post_type": "regular",
+    "author": {
+      "name": "Microsoft",
+      "follower_count": 26081023,
+      "company_url": "https://www.linkedin.com/company/microsoft/posts",
+      "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1758153600&v=beta&t=pSreSl384TIz0zuocyFkoO40qHgiF54QcWaF2hnfAf4"
+    },
+    "stats": {
+      "total_reactions": 1712,
+      "like": 1566,
+      "support": 20,
+      "love": 43,
+      "insight": 65,
+      "celebrate": 15,
+      "entertainment": 3,
+      "comments": 267,
+      "reposts": 105
+    },
+    "media": {
+      "type": "article"
+    },
+    "document": null,
+    "source_company": "https://www.linkedin.com/company/microsoft"
+  },
+  {
+    "activity_urn": "7359276919302856704",
+    "full_urn": "urn:li:activity:7359268389866913793",
+    "post_url": "https://www.linkedin.com/posts/satyanadella_microsoft-incorporates-openais-gpt-5-into-activity-7359268389866913793-jI2m?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF2qykUBt8TFBE1tZB8t9lfbLD56SoOswpc",
+    "text": "Today, GPT-5 launches across our platforms, including Microsoft 365 Copilot, Copilot, GitHub Copilot, and Azure AI Foundry. It's the most capable model yet from our partners at OpenAI, bringing powerful new advances in reasoning, coding, and chat, all trained on Azure.\n\nIt’s hard to believe it’s only been two and a half years since Sam Altman joined us in Redmond to show the world GPT-4 for the first time in Bing, and it’s incredible to see how far we’ve come since that moment.\n\nThe pace of progress is only accelerating, and I can’t wait to see what developers, enterprises, and consumers will do with this latest breakthrough. \nhttps://lnkd.in/gQHJBHex",
+    "posted_at": {
+      "relative": "5d",
+      "is_edited": false,
+      "date": "2025-08-07 19:39:06",
+      "timestamp": 1754588346315
+    },
+    "post_language_code": "en",
+    "post_type": "repost",
+    "author": {
+      "name": "Satya Nadella",
+      "company_url": "https://www.linkedin.com/in/satyanadella?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEkwwAB9KEc2TrQgOLEQ-vzRyZeCDyc6DQ"
+    },
+    "stats": {
+      "total_reactions": 14963,
+      "like": 12558,
+      "support": 53,
+      "love": 861,
+      "insight": 164,
+      "celebrate": 1318,
+      "entertainment": 9,
+      "comments": 594,
+      "reposts": 1918
+    },
+    "media": {
+      "type": "article",
+      "items": [
+        {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQFuhnJ8zX6aOQ/articleshare-shrink_1280_800/B56ZiFfcEBHUAQ-/0/1754586268495?e=1755648000&v=beta&t=CdVQ-2pQXLeMjICdgpkQEWtx7aI5IOY4hzPIharU8-4",
+          "title": "Microsoft incorporates OpenAI’s GPT-5 into consumer, developer and enterprise offerings"
+        }
+      ]
+    },
+    "document": null,
+    "source_company": "https://www.linkedin.com/company/microsoft"
+  },
+  {
+    "activity_urn": "7356457722730463232",
+    "full_urn": "urn:li:activity:7356452669235875840",
+    "post_url": "https://www.linkedin.com/posts/satyanadella_we-just-wrapped-our-earnings-call-it-was-activity-7356452669235875840-A-0W?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF2qykUBt8TFBE1tZB8t9lfbLD56SoOswpc",
+    "text": "We just wrapped our earnings call. It was a very strong close to our fiscal year. A few highlights:\n \nAzure surpassed $75 billion in revenue for the first time this year, up 34 percent year over year. \n\nIt has been quite the journey from 0 to 75! \n\nWe have come a long way from Project Red Dog... we now add as much capacity in a month as we did in our first five years!\n \nSuper grateful for the trust so many customers have placed in us through the years.\n \nOne other big number we shared: more than 100 million monthly active users across our family of Copilots.\n \nWe rolled out our biggest update to M365 Copilot this quarter, and we saw the largest quarter of seat adds, with a record number of customers coming back to buy more seats.\n \nPlus, we have Copilots and agents for every role and function, which are all growing fast, from GitHub Copilot for devs (20M users), to Dragon in healthcare (13M physician-patient encounters this quarter).\n \nAnd with Copilot Mode in Edge, it is exciting to see innovation come back to the browser!\n \nAzure Foundry is our app server for AI, and we’re seeing great momentum.\n \nFoundry offers access to more models than any other hyperscaler, as well as best-in-class tooling, management, observability, and built-in controls for trustworthy AI.\n \nAnd when we look at just the number of tokens served by Foundry APIs, we processed over 500 trillion this year, up over 7X.\n \nThis is good indicator of true platform diffusion beyond a few head apps and services.\n \nYou can read more about our results here: https://lnkd.in/gvQd_xNf",
+    "posted_at": {
+      "relative": "1w",
+      "is_edited": false,
+      "date": "2025-07-31 00:56:37",
+      "timestamp": 1753916197474
+    },
+    "post_language_code": "en",
+    "post_type": "repost",
+    "author": {
+      "name": "Satya Nadella",
+      "company_url": "https://www.linkedin.com/in/satyanadella?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEkwwAB9KEc2TrQgOLEQ-vzRyZeCDyc6DQ"
+    },
+    "stats": {
+      "total_reactions": 12923,
+      "like": 9657,
+      "support": 44,
+      "love": 1077,
+      "insight": 103,
+      "celebrate": 2032,
+      "entertainment": 10,
+      "comments": 698,
+      "reposts": 710
+    },
+    "media": {},
+    "document": null,
+    "source_company": "https://www.linkedin.com/company/microsoft"
+  },
+  {
+    "activity_urn": "7356415381994967040",
+    "full_urn": "urn:li:ugcPost:7356415381147717632",
+    "post_url": "https://www.linkedin.com/posts/microsoft_check-out-microsofts-fy2025-q4-results-activity-7356415381994967040-Ll68?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF2qykUBt8TFBE1tZB8t9lfbLD56SoOswpc",
+    "text": "Check out Microsoft's FY2025 Q4 results: https://msft.it/6003sJHvf",
+    "posted_at": {
+      "relative": "1w",
+      "is_edited": false,
+      "date": "2025-07-30 22:08:22",
+      "timestamp": 1753906102656
+    },
+    "post_language_code": "en",
+    "post_type": "regular",
+    "author": {
+      "name": "Microsoft",
+      "follower_count": 26081023,
+      "company_url": "https://www.linkedin.com/company/microsoft/posts",
+      "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1758153600&v=beta&t=pSreSl384TIz0zuocyFkoO40qHgiF54QcWaF2hnfAf4"
+    },
+    "stats": {
+      "total_reactions": 2204,
+      "like": 1692,
+      "support": 19,
+      "love": 143,
+      "insight": 8,
+      "celebrate": 341,
+      "entertainment": 1,
+      "comments": 95,
+      "reposts": 264
+    },
+    "media": {
+      "type": "video",
+      "items": [
+        {
+          "duration": 8033,
+          "thumbnail": "https://media.licdn.com/dms/image/v2/D5610AQHc5CESDLsZSQ/ads-video-thumbnail_720_1280/B56Zhc8xFQHcAg-/0/1753906091879?e=1755648000&v=beta&t=xqmltVJu7lEY9P3zfu9UcJnhWeiW-VWwF98NBGu0ibM",
+          "url": "https://dms.licdn.com/playlist/vid/v2/D5610AQHc5CESDLsZSQ/mp4-720p-30fp-crf28/B56Zhc8xFQHcBs-/0/1753906092338?e=1755648000&v=beta&t=rDK_o7Xx1LmcDrHK1OeO3mSgHQixGy-upQXNM2ZFYhE"
+        }
+      ]
+    },
+    "document": null,
+    "source_company": "https://www.linkedin.com/company/microsoft"
+  },
+  {
+    "activity_urn": "7355641749865668609",
+    "full_urn": "urn:li:ugcPost:7355598274663272457",
+    "post_url": "https://www.linkedin.com/posts/judsonalthoff_over-the-past-fiscal-year-our-customers-ugcPost-7355598274663272457-_kGl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF2qykUBt8TFBE1tZB8t9lfbLD56SoOswpc",
+    "text": "Over the past fiscal year, our customers and partners have driven pragmatic outcomes by implementing AI-first strategies across their organizations. With AI Transformation as their framework, we helped them reinvent employee experiences, reinvent customer engagement, reshape business processes, and bend the curve on innovation for their people, businesses and industries. \n \nNow, we are partnering to go beyond what they thought possible to unlock even greater potential by restructuring and centralizing their business strategies with an AI-first mindset. Our cloud and AI capabilities are leading the industry, and we are committed to working closely with our customers and partners to meet their increasingly complex needs and help them become frontier AI firms.\n \nCheck out my latest blog to read several customer and partner stories from the past quarter reflecting the success we have seen broadly in FY25, and what we can achieve together with an approach grounded in AI business solutions, cloud and AI platforms, and security. https://lnkd.in/giVmUisX",
+    "posted_at": {
+      "relative": "2w",
+      "is_edited": false,
+      "date": "2025-07-28 18:54:14",
+      "timestamp": 1753721654383
+    },
+    "post_language_code": "en",
+    "post_type": "repost",
+    "author": {
+      "name": "Judson Althoff",
+      "company_url": "https://www.linkedin.com/in/judsonalthoff?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAFJLZwBzRXupAjfllXxLKCQnZyfnkuRDz8"
+    },
+    "stats": {
+      "total_reactions": 1184,
+      "like": 1021,
+      "support": 5,
+      "love": 49,
+      "insight": 24,
+      "celebrate": 83,
+      "entertainment": 2,
+      "comments": 94,
+      "reposts": 170
+    },
+    "media": {
+      "type": "video",
+      "items": [
+        {
+          "duration": 105000,
+          "thumbnail": "https://media.licdn.com/dms/image/v2/D5605AQHP0JtVsAWLNw/videocover-high/B56ZhRVqH_HUCQ-/0/1753711323934?e=1755648000&v=beta&t=kqfN5be8h9IxhsVNQecr5eyiutwRnkd29sCSvSTfSsQ",
+          "url": "https://dms.licdn.com/playlist/vid/v2/D5605AQHP0JtVsAWLNw/mp4-720p-30fp-crf28/B56ZhRVqH_HUB4-/0/1753711328798?e=1755648000&v=beta&t=9w97WEgGwSgSQpq41LnMKoUIckxGvV8KqFjh-NZkZkc"
+        }
+      ]
+    },
+    "document": null,
+    "source_company": "https://www.linkedin.com/company/microsoft"
+  }
+]

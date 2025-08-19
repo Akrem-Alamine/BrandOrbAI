@@ -1,0 +1,1220 @@
+{
+    "investment_funds": [
+      {
+        "fund_name": "Abdelmuhaimen Madi",
+        "logo": "https://www.openvc.app/country/images/funds/recWSODyD9dDlRrxf.jpg",
+        "overview": "Angel Investor and Co-Founder of multiple companies with a background in Product Design and Software Engineering, leveraging these skills to drive innovation and growth in the tech industry.",
+        "who_we_are": "Angel Investor and Co-Founder of multiple companies with a background in Product Design and Software Engineering, leveraging these skills to drive innovation and growth in the tech industry.",
+        "value_add": "I deliver value by leveraging my expertise in UI/UX and product design to optimize product development strategies. My guidance, rooted in deep industry knowledge, helps shape product roadmaps and pivot plans, driving the strategic direction of the portfolio companies to foster growth and innovation.",
+        "firm_type": "Solo angel",
+        "headquarters_address": "Toronto, M5R 1V9, Canada",
+        "funding_requirements": "I invest in early stage startups, in any sector. I prefer subscription based business models.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$5k to $100k",
+        "target_countries": [
+          "Canada",
+          "USA",
+          "Belgium",
+          "Czech Republic",
+          "Estonia",
+          "Finland",
+          "Italy",
+          "Malta",
+          "UK",
+          "Ukraine",
+          "Algeria",
+          "Bahrain",
+          "Egypt",
+          "Jordan",
+          "Kuwait",
+          "Lybia",
+          "Morocco",
+          "Oman",
+          "Palestine",
+          "Qatar",
+          "Saudi Arabia",
+          "Tunisia",
+          "Turkey",
+          "UAE"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/abdomadi",
+        "website_link": "https://designos.co/"
+      },
+      {
+        "fund_name": "Cathay AfricInvest Innovation",
+        "logo": "https://www.openvc.app/country/images/funds/reci0QxyjhRL6mygC.jpg",
+        "overview": "Overview",
+        "who_we_are": "The Cathay Africinvest Innovation Fund is the first Pan-African Venture Fund created to connect the continent and the world’s leading innovation ecosystems. With the combination of socio-economic gaps and innovation drivers, startups have an opportunity to fuel a technological leapfrog that can improve over 1 billion lives across Africa. We want to fuel this transition by creating and connecting new digital infrastructures and services that will boost the economy to the next level. The fund is operated by the Africinvest team, through a common management company, with the value-added global support of Cathay Innovation.",
+        "firm_type": "VC",
+        "headquarters_address": "1101, 11th floor, The Core, No 62, ICT Avenue, Cybercity, Ebene, Mauritius",
+        "funding_requirements": "We invest in early to growth-stage startups based in or focused on Africa that are ready to scale and make a significant impact with innovative and inclusive solutions. We back mission-driven teams with a particular focus on logistics, e-commerce, edtech, fintech, mobility, healthtech, energy and agtech. Our initial check sizes range from $1 – $10M for growth-stage or select seed-stage tickets up to $1M.",
+        "funding_stages": [
+          "4. Scaling",
+          "5. Growth",
+          "3. Early Revenue"
+        ],
+        "check_size": "$1M to $10M",
+        "target_countries": [
+          "South Africa",
+          "Nigeria",
+          "Tunisia",
+          "Egypt",
+          "Kenya",
+          "Morocco",
+          "Algeria",
+          "Côte d'Ivoire"
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/africinvestgrp/",
+        "website_link": "https://cathayinnovation.com/fund/cathay-africinvest-innovation/"
+      },
+      {
+        "fund_name": "Co-Creation Hub",
+        "logo": "https://www.openvc.app/country/images/funds/recXwqMt7hbePPZpb.jpg",
+        "overview": "Firm typeVCTableGlobal HQ294 Herbert Macaulay Way, Sabo, Yaba, Lagos.",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "294 Herbert Macaulay Way, Sabo, Yaba, Lagos.",
+        "funding_requirements": "We invest in African startups from Seed to Series A. Sector agnostic.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$25k to $250k",
+        "target_countries": [
+          "Nigeria",
+          "Kenya",
+          "Rwanda",
+          "Ghana",
+          "Morocco",
+          "Uganda",
+          "Egypt",
+          "Senegal",
+          "Côte d'Ivoire",
+          "South Africa",
+          "Namibia",
+          "Angola",
+          "Tunisia",
+          "Ethiopia",
+          "Tanzania"
+        ],
+        "team_members": [
+          {
+            "name": "Rofem Egbe",
+            "role": "Sr Associate",
+            "bio": "I invest in post-revenue startups across Africa. Sector agnostic but with a soft spot for edtech"
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/co-creation-hub",
+        "website_link": "https://cchub.africa/"
+      },
+      {
+        "fund_name": "Dinare Ventures",
+        "logo": "https://www.openvc.app/country/images/funds/recgo2dlctYZ7qlK4.jpg",
+        "overview": "Overview",
+        "who_we_are": "We are a new family office fund with focus on the MENA region.",
+        "value_add": "All the partners are having operational background and this why we are different from other VCs.",
+        "firm_type": "Family office",
+        "headquarters_address": "Dubai",
+        "funding_requirements": "We invest in early stage startups in the MENA region",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$100k to $300k",
+        "target_countries": [
+          "Egypt",
+          "UAE",
+          "Saudi Arabia",
+          "Iraq",
+          "Jordan",
+          "Lebanon",
+          "Tunisia",
+          "Algeria",
+          "Bahrain",
+          "Kuwait",
+          "Qatar",
+          "Oman",
+          "Morocco"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/dinareventures",
+        "website_link": "https://dinareventures.com/"
+      },
+      {
+        "fund_name": "Avelana",
+        "logo": "https://www.openvc.app/country/images/funds/recu71g6oeUFZKIrh.jpg",
+        "overview": "Avelana is an impact-focused investment and entrepreneurship company founded by committed entrepreneurs. Our mission revolves around funding and nurturing businesses that contribute to ecological transition.",
+        "who_we_are": "Avelana is an impact-focused investment and entrepreneurship company founded by committed entrepreneurs. Our mission revolves around funding and nurturing businesses that contribute to ecological transition.",
+        "value_add": "We actively contribute to the development of our investments by bringing our entrepreneur's experiences, our network of expert partners, and our know-how to provide personalized and supportive guidance. We act as an active and patient minority shareholder without a predetermined exit horizon.",
+        "firm_type": "Family office",
+        "headquarters_address": "Montpellier, France",
+        "funding_requirements": "We invest in companies based in France that aim to have a global impact by offering innovative solutions or services that accelerate the ecological transition. In particular, we support companies that work towards achieving SDGs 2, 13, and 15, and secondarily SDGs 6, 11, and 12. Here are some themes that currently interest us:\n Agroecological/regenerative agriculture\n Agricultural production\n Services to the agricultural sector: advice and support to farmers, assistance with installation, job creation and agricultural training, financing of the agroecological transition\n Digital tools: software, marketplaces, decision-making tools, carbon valuation and ecosystem services\n Agro-supplies: biocontrol products, biostimulants, agroecological seeds, other sustainable inputs and equipment\n Sustainable food and agro-industrial systems\n Sustainable food systems (reduction in animal protein consumption, alternative proteins)\n Development of short circuits and marketing solutions that aim to bring farmers closer to consumers and increase the traceability and transparency of supply chains + territorial resilience\n Development of innovative sectors such as biosourced materials\n Circular economy: waste reduction and management, co-product valorization, anti-waste, composting...\n We invest at pre-seed, seed, and series A phases by injecting tickets from €200k to €2.5M.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$200k to $2M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [
+          {
+            "name": "Antoine Chamussy",
+            "role": "GP/MD",
+            "bio": "I invest early stage, in impact driven companies. Focusing on those accelerating the ecological transition."
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/avelana",
+        "website_link": "http://www.avelana.fr/"
+      },
+      {
+        "fund_name": "Citizen Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recjLZSE81ABgkRYv.jpg",
+        "overview": "Firm typeVCTarget countriesFrance",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "16 Place de la République, Paris, 75010, FR",
+        "funding_requirements": "We invest in ambitious and mission-driven entrepreneurs, trying to solve major social or environmental issues.\n We typically participate in rounds from 1 to 10M€, starting pre-series A.\n Some portfolio companies : OpenClassrooms, Ulule, RPur, Supermood",
+        "funding_stages": [
+          "3. Early Revenue",
+          "4. Scaling",
+          "5. Growth"
+        ],
+        "lead_investor": null,
+        "check_size": "$360k to $4.8M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/citizen-capital/",
+        "website_link": "http://www.citizencapital.fr/"
+      },
+      {
+        "fund_name": "Hedi Ben Chaabane",
+        "logo": "https://www.openvc.app/country/images/funds/reci8540gB8X6829p.jpg",
+        "overview": "Overview",
+        "who_we_are": "Solo investor, personal investments",
+        "value_add": "Highly skilled in healthcare, pharma, biotech, medtech.",
+        "firm_type": "Solo angel",
+        "headquarters_address": "Paris 75001",
+        "funding_requirements": "I invest in (personal investment) early stage healthcare start-ups and biotech companies developing unique technologies.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$10k to $2M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://linkedin.com/in/hedi-ben-chaabane-9abab097",
+        "website_link": null
+      },
+      {
+        "fund_name": "Leonard",
+        "logo": "https://www.openvc.app/country/images/funds/recdemKSXsTfTsN2J.jpg",
+        "overview": null,
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "Corporate VC",
+        "headquarters_address": "6 place du Colonel Bourgoin, Paris, 75012, France",
+        "funding_requirements": "We invest in early stage startups solving the challenges of future cities in the verticals of construction, real estate, energy and mobility",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$70k to $70k",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/weareleonard/",
+        "website_link": "https://leonard.vinci.com"
+      },
+      {
+        "fund_name": "Mer Angels",
+        "logo": "https://www.openvc.app/country/images/funds/rec6fU2VsDV0e7tPN.jpg",
+        "overview": "We are a Business Angels network that funds blue economy startups, offers guidance to founders, fosters ecosystem connections, and supports marine sustainability.",
+        "who_we_are": "We are a Business Angels network that funds blue economy startups, offers guidance to founders, fosters ecosystem connections, and supports marine sustainability.",
+        "value_add": "Our strength lies in diverse expertise, including former entrepreneurs, finance experts, and maritime top managers. We offer startups operational analysis and long-term support, activating crucial synergies for growth.",
+        "firm_type": "Angel network",
+        "headquarters_address": "Paris, France",
+        "funding_requirements": "We invest in blue economy startups that span a broad spectrum of sectors such as fintech, IoT, web3, SaaS, blockchain, AI, machine learning, AR/VR, biotech, robotics, clean energy, sustainable agriculture, edtech, healthtech, insurtech, proptech, quantum computing, nanotechnology, cybersecurity, e-commerce, mobile apps, cloud computing, 5G, wearables, gaming, digital health, genomics, drones, space tech, smart cities, and autonomous vehicles, seeking out the most innovative and transformative solutions within these domains",
+        "funding_stages": [
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$100k to $500k",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [
+          {
+            "name": "Sylvain Godard",
+            "role": "Admin (IR, Ops...)",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/merangels",
+        "website_link": "https://merangels.com"
+      },
+      {
+        "fund_name": "Pléiade Venture",
+        "logo": "https://www.openvc.app/country/images/funds/recnq4P2JhOUqS5SF.jpg",
+        "overview": "Pléiade Venture is an entrepreneur-funded venture capital firm.",
+        "who_we_are": "Pléiade Venture is an entrepreneur-funded venture capital firm.",
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "29 rue de Miromesnil, 75008 Paris",
+        "funding_requirements": "We invest over the long term and without a predetermined exit horizon in innovative and growing French companies, in all sectors, up to €3 million (alone or in co-investment).",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$200k to $3M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/pleiade-venture/",
+        "website_link": "https://pleiadeventure.com/"
+      },
+      {
+        "fund_name": "Ring Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recl5xJPmWqmvooWu.jpg",
+        "overview": "Firm typeVCGlobal HQ2 rue Favart, 75002 Paris",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "2 rue Favart, 75002 Paris",
+        "funding_requirements": "We invest by acquiring minority interests of 3M€ to 15M€ in tech and digital companies with an annual turnover of minimum 5M€ to help them grow and scale through internationalisation and external growth.",
+        "funding_stages": [
+          "5. Growth"
+        ],
+        "lead_investor": null,
+        "check_size": "$3.5M to $18M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/ring-cp/",
+        "website_link": "http://www.ringcp.com/home"
+      },
+      {
+        "fund_name": "Spring Invest",
+        "logo": "https://www.openvc.app/country/images/funds/rec9p03OzZwAHVrof.jpg",
+        "overview": "Overview",
+        "who_we_are": "Spring Invest is a French VC fund dedicated to companies shaping the future of commerce.",
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "33, Rue d'amsterdam, Paris, Île-de-France 75008, FR",
+        "funding_requirements": "We invest in French software companies. Focus on the future of commerce.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$500k to $3M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [
+          {
+            "name": "Alexandre Guillot",
+            "role": "Principal",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/spring-invest/",
+        "website_link": "https://www.spring-invest.com/"
+      },
+      {
+        "fund_name": "Mehmet Talas",
+        "logo": "https://www.openvc.app/country/images/funds/recHhgwhQDSEKQ8SK.jpg",
+        "overview": "Overview",
+        "who_we_are": "Startup advisory & business angel",
+        "value_add": "Very good knowledge of the start-up ecosystem in France 10 years' expertise in start-up financing",
+        "firm_type": "Solo angel",
+        "headquarters_address": "Paris, France",
+        "funding_requirements": "I invest in SaaS B2B / AI / Data with strong team and early revenue.",
+        "funding_stages": [
+          "Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$10k to $50k",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/mehmettalas/",
+        "website_link": null
+      },
+      {
+        "fund_name": "Charlotte Garaud",
+        "logo": "https://www.openvc.app/country/images/funds/recmQop53saf8m4e3.jpg",
+        "overview": "Overview",
+        "who_we_are": "business angel and consultant for founders",
+        "value_add": "- business model challenge - meeting with other BA - access to a network of people in start-ups and tech (coaches, AI experts, incubators...) - meeting with other entrepreneurs",
+        "firm_type": "Solo angel",
+        "headquarters_address": "Quai Henri IV, Paris, France",
+        "funding_requirements": "I invest in early stage start-ups, based in France",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype"
+        ],
+        "lead_investor": null,
+        "check_size": "$5k to $50k",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/charlotte-garaud-333b2336/",
+        "website_link": null
+      },
+      {
+        "fund_name": "Evolem Start",
+        "logo": "https://www.openvc.app/country/images/funds/recxGDTCVaeZNmGOh.jpg",
+        "overview": "Firm typeFamily officeGlobal HQ6 Quai Saint Antoine 69002 Lyon",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "Family office",
+        "headquarters_address": "6 Quai Saint Antoine 69002 Lyon",
+        "funding_requirements": "We invest in all types of early stage startups with some revenue, a bold vision for societal impact, and a complementary founding team.  We are a generalist family office. In the past, we've invested in Consumer Insurtech, Consumer Fintech, Sales Tools, Customer Service Management tools, Proptech, EdTech, AdTech",
+        "funding_stages": [
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$150k to $3M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/evolem/",
+        "website_link": "https://www.evolem.com/philosophie-dinvestissement/evolem-start/"
+      },
+      {
+        "fund_name": "Go Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recQlNpba6kLfmp26.jpg",
+        "overview": "Overview Who we are Value add Firm type Global HQ Thesis Team",
+        "who_we_are": "Since its creation in 2003, GO Capital has become a leader in deeptech, digital, healtech investment in the west of France, as well as in the impact maritime industry throughout France. GO Capital invest from Seed to Serie A, with tickets from 300k€ to 5m€ (reinvestments included)",
+        "value_add": "Vast network of industrial partners, investors, scientific etc. and access strategic resources",
+        "firm_type": "VC",
+        "headquarters_address": "1a, Rue Louis Braille, 35136 Saint-Jacques-de-la-Lande, France 22 Rue Racine, 44000 Nantes, France 67 Avenue Kléber, 75016 Paris, France",
+        "funding_requirements": "We invest in Impact Maritime startups mainly based in France, as well as deeptech, digital and healtech startups in the west of France.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling",
+          "5. Growth"
+        ],
+        "lead_investor": null,
+        "check_size": "$300k to $5M",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [
+          {
+            "name": "François Fauvin",
+            "role": "Associate",
+            "bio": "We invest in maritime startups mainly based in France as well as deeptech, digital and healthtech in the west of France"
+          },
+          {
+            "name": "Théau Sanchez",
+            "role": "Analyst",
+            "bio": "I invest in all sectors in Nouvelle-Aquitaine and in the maritime fiel in France."
+          },
+          {
+            "name": "Malo Le den",
+            "role": "Analyst",
+            "bio": "I invest in early innovative startups (seed stage) based on the western part of France."
+          },
+          {
+            "name": "Clémentine Breysse",
+            "role": "Associate",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/gocapital/",
+        "website_link": "https://www.gocapital.fr/en/"
+      },
+      {
+        "fund_name": "Homegrown CPG",
+        "logo": "https://www.openvc.app/country/images/funds/recwPIbmBOr49mx4k.jpg",
+        "overview": "Overview",
+        "who_we_are": "The first regional investment holding company specialized in CPG / FMCG startups. Accelerating growth through investment & strategic support.",
+        "value_add": "We invest-in and partner with the startups via providing strategic support which will allow them to accelerate their growth.",
+        "firm_type": "VC",
+        "headquarters_address": "Dubai, United Arab Emirates",
+        "funding_requirements": "We invest in CPG / FMCG startups that has a better-for-you products with a minimum revenue of $1M to $2M per year.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$100k to $1M",
+        "target_countries": [
+          "UAE",
+          "Saudi Arabia",
+          "India",
+          "Tunisia",
+          "Morocco",
+          "Qatar",
+          "Oman",
+          "Bahrain"
+        ],
+        "team_members": [
+          {
+            "name": "Ahmad Shamieh",
+            "role": "GP/MD",
+            "bio": "I invest in  FMCG / CPG companies"
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/homegrown-cpg/",
+        "website_link": "https://homegrowncpg.com/"
+      },
+      {
+        "fund_name": "Imran Md",
+        "logo": "https://www.openvc.app/country/images/funds/recAP6nBCw9LsVrAt.jpg",
+        "overview": "I am a product leader and investor with a background in scaling B2B and B2C startups. With experience in venture building, digital transformation, and AI-driven solutions, I focus on identifying and supporting high-potential businesses that drive innovation and efficiency.",
+        "who_we_are": "I am a product leader and investor with a background in scaling B2B and B2C startups. With experience in venture building, digital transformation, and AI-driven solutions, I focus on identifying and supporting high-potential businesses that drive innovation and efficiency.",
+        "value_add": "Beyond capital, I bring hands-on experience in product strategy, go-to-market execution, and scaling operations. I leverage my network and insights in AI, fintech, and SaaS to help founders navigate early-stage growth, refine their business models, and build sustainable, high-impact ventures.",
+        "firm_type": "Solo angel",
+        "headquarters_address": "UAE",
+        "funding_requirements": "I invest in ambitious founders solving real problems with scalable and tech-driven solutions. I focus on businesses that demonstrate strong product-market fit, clear unit economics, and a path to profitability.",
+        "funding_stages": [
+          "Idea or Patent",
+          "Prototype",
+          "Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$5k to $50k",
+        "target_countries": [
+          "India",
+          "Algeria",
+          "Bahrain",
+          "Djibouti",
+          "Egypt",
+          "Iran",
+          "Iraq",
+          "Israel",
+          "Jordan",
+          "Kuwait",
+          "Lebanon",
+          "Lybia",
+          "Mauritania",
+          "Morocco",
+          "Oman",
+          "Palestine",
+          "Qatar",
+          "Saudi Arabia",
+          "Sudan",
+          "Syria",
+          "Tunisia",
+          "Turkey",
+          "UAE",
+          "Yemen"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/itsimranmd/",
+        "website_link": null
+      },
+      {
+        "fund_name": "Jaza Rift Ventures",
+        "logo": "https://www.openvc.app/country/images/funds/recrZwY01kcvURQv7.jpg",
+        "overview": "An pre-seed to series A healthtech, medtech and biotech VC fund for Africa",
+        "who_we_are": "An pre-seed to series A healthtech, medtech and biotech VC fund for Africa",
+        "value_add": "4Cs - Capital - Community - Coachin & Mentoring - Crazy 10x Growth",
+        "firm_type": "VC",
+        "headquarters_address": "Nairobi, Kenya",
+        "funding_requirements": "We invest in pre-seed to series A healthtech, biotech and medtech founders in Africa. Tickets: $100k-$2M.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$100k to $2M",
+        "target_countries": [
+          "Burkina Faso",
+          "Burundi",
+          "Cameroon",
+          "Congo (Congo-Brazzaville)",
+          "DRC Congo",
+          "Côte d'Ivoire",
+          "Ethiopia",
+          "Ghana",
+          "Kenya",
+          "Liberia",
+          "Madagascar",
+          "Malawi",
+          "Mali",
+          "Nigeria",
+          "Rwanda",
+          "Senegal",
+          "Sierra Leone",
+          "South Africa",
+          "Tanzania",
+          "Togo",
+          "Uganda",
+          "Zambia",
+          "Zimbabwe",
+          "Egypt",
+          "Morocco",
+          "Tunisia"
+        ],
+        "team_members": [
+          {
+            "name": "Sewu-Steve Tawia",
+            "role": "GP/MD",
+            "bio": "*Africa* focused pre-seed to Series A healthtech, medtech and biotech investor."
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/jazarift",
+        "website_link": "https://www.jazarift.vc/"
+      },
+      {
+        "fund_name": "Jeeny",
+        "logo": "https://www.openvc.app/country/images/funds/recM7yg9hvjhj9Or0.jpg",
+        "overview": "We are the fastest growing ride-hailing app in the MENA region, we are 3rd largest in Saudi Arabia and the market leader in Jordan. We have the mandate to invest in related sectors to grow our footprint across the region.",
+        "who_we_are": "We are the fastest growing ride-hailing app in the MENA region, we are 3rd largest in Saudi Arabia and the market leader in Jordan. We have the mandate to invest in related sectors to grow our footprint across the region.",
+        "value_add": "We will provide access to our extensive network of users, provide support at key stages to help startups scale sustainably.",
+        "firm_type": "Corporate VC",
+        "headquarters_address": "Riyadh",
+        "funding_requirements": "We invest in startups in Post-Seed and Pre-Series A stages that have created tangible momentum in ride-hailing, mobility, logistics, and related sectors. You should either be present in KSA or UAE or be looking to expand into the region within the next 6-12 months.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$50k to $5M",
+        "target_countries": [
+          "India",
+          "Pakistan",
+          "Bahrain",
+          "Egypt",
+          "Jordan",
+          "Morocco",
+          "Qatar",
+          "Saudi Arabia",
+          "Tunisia",
+          "Turkey",
+          "UAE"
+        ],
+        "team_members": [
+          {
+            "name": "Khizar Raza",
+            "role": "VP",
+            "bio": "I invest in startups in the mobility and related sectors in KSA, UAE, SEA or wanting to move into KSA or UAE region."
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/jeenyme/",
+        "website_link": "https://www.jeeny.me/en/"
+      },
+      {
+        "fund_name": "Katapult Seed",
+        "logo": "https://www.openvc.app/country/images/funds/rec6392rST10tdD4g.jpg",
+        "overview": "Firm typeIncubator, AcceleratorGlobal HQUniversitetsgata 2, 0160 Oslo, NorwayApplication periodicityNANext deadline to applyNA",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "Incubator, Accelerator",
+        "headquarters_address": "Universitetsgata 2, 0160 Oslo, Norway",
+        "funding_requirements": "We invest in global seed stage climate tech across land and ocean",
+        "funding_stages": [
+          "Early Revenue",
+          "Prototype"
+        ],
+        "lead_investor": null,
+        "check_size": "$150k to $500k",
+        "target_countries": [
+          "USA",
+          "Norway",
+          "Sweden",
+          "Finland",
+          "Denmark",
+          "Germany",
+          "Spain",
+          "Netherlands",
+          "Argentina",
+          "Brazil",
+          "Chile",
+          "Canada",
+          "UK",
+          "Belgium",
+          "Colombia",
+          "Nigeria",
+          "Italy",
+          "Rwanda",
+          "Austria",
+          "France",
+          "Israel",
+          "Kenya",
+          "Mauritius",
+          "Portugal",
+          "Singapore",
+          "Switzerland",
+          "South Africa",
+          "Ukraine",
+          "Tunisia"
+        ],
+        "team_members": [
+          {
+            "name": "Jørn Haanæs",
+            "role": "GP/MD",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/katapultimpact",
+        "website_link": "https://katapult.vc/"
+      },
+      {
+        "fund_name": "Mehmet Gonullu",
+        "logo": "https://www.openvc.app/country/images/funds/recNDiuf2fNT12OQm.jpg",
+        "overview": "Overview",
+        "who_we_are": "Mehmet Gonullu",
+        "value_add": "I help founders in GTM, visibility, and mentorship",
+        "firm_type": "Solo angel",
+        "headquarters_address": "Dubai, UAE",
+        "funding_requirements": "I invest in early stage startups in the field of SaaS, Enterprise, DeepTech, and Cybersecurity in MENA region",
+        "funding_stages": [
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$5k to $200k",
+        "target_countries": [
+          "Kenya",
+          "South Africa",
+          "Tanzania",
+          "Bahrain",
+          "Djibouti",
+          "Egypt",
+          "Iraq",
+          "Jordan",
+          "Kuwait",
+          "Lebanon",
+          "Morocco",
+          "Oman",
+          "Palestine",
+          "Qatar",
+          "Saudi Arabia",
+          "Tunisia",
+          "Turkey",
+          "UAE"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/mgonullu/",
+        "website_link": null
+      },
+      {
+        "fund_name": "Naureen Mustafa",
+        "logo": "https://www.openvc.app/country/images/funds/recieErpTp7WEMUpC.jpg",
+        "overview": "Overview",
+        "who_we_are": "Naureen Mustafa",
+        "value_add": "Investment, Operational Support",
+        "firm_type": "Solo angel",
+        "headquarters_address": "United States",
+        "funding_requirements": "I invest in pre Series A in ethical fintech ventures and sharia compliant fintech ventures.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$50k to $250k",
+        "target_countries": [
+          "Pakistan",
+          "Algeria",
+          "Bahrain",
+          "Djibouti",
+          "Egypt",
+          "Iran",
+          "Iraq",
+          "Jordan",
+          "Kuwait",
+          "Lebanon",
+          "Morocco",
+          "Oman",
+          "Palestine",
+          "Qatar",
+          "Saudi Arabia",
+          "Sudan",
+          "Syria",
+          "Tunisia",
+          "Turkey",
+          "UAE"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/in/silicon-valleygirl-227530173/",
+        "website_link": null
+      },
+      {
+        "fund_name": "Nuwa Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recvUZE9iOP7KZH8l.jpg",
+        "overview": "Firm typeVCGlobal HQDubai, UAE and Riyadh, KSA",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "Dubai, UAE and Riyadh, KSA",
+        "funding_requirements": "We invested in early stage technology businesses in emerging markets with particular focus on SaaS, DTC e-commerce, Fintech and other rapidly digitizing industries",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling",
+          "Growth"
+        ],
+        "lead_investor": null,
+        "check_size": "$250k to $7M",
+        "target_countries": [
+          "UAE",
+          "Saudi Arabia",
+          "Oman",
+          "Egypt",
+          "Jordan",
+          "Pakistan",
+          "Turkey",
+          "Lebanon",
+          "Kenya",
+          "Uganda",
+          "Morocco",
+          "Tunisia",
+          "Bahrain",
+          "Kuwait"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/nuwacapital/",
+        "website_link": "https://nuwacapital.io/"
+      },
+      {
+        "fund_name": "Plus Venture Capital (+VC)",
+        "logo": "https://www.openvc.app/country/images/funds/recFWYLorOCosSDh8.jpg",
+        "overview": "Firm typeVCGlobal HQThe Terminal Building, Block 338, Manama, Bahrain",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "The Terminal Building, Block 338, Manama, Bahrain",
+        "funding_requirements": "We invest in seed stage tech and tech enabled startups in the MENA region and its diaspora",
+        "funding_stages": [
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$100k to $200k",
+        "target_countries": [
+          "Bahrain",
+          "UAE",
+          "Saudi Arabia",
+          "Kuwait",
+          "Oman",
+          "Qatar",
+          "Egypt",
+          "Tunisia",
+          "Jordan",
+          "Lebanon",
+          "Palestine",
+          "Syria",
+          "Lybia",
+          "Morocco",
+          "Algeria",
+          "Sudan"
+        ],
+        "team_members": [
+          {
+            "name": "Hasan Haider",
+            "role": "GP/MD",
+            "bio": "I invest in Seed stage tech and tech enabled startups in the MENA region and MENA Diaspora"
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/plusvc",
+        "website_link": "https://plus.vc/"
+      },
+      {
+        "fund_name": "Relatively Fund",
+        "logo": "https://www.openvc.app/country/images/funds/rec0NAvuL6GEDVGO0.jpg",
+        "overview": "Firm typeStartup studioGlobal HQJordan, AmmanApplication periodicityAll year roundNext deadline to applyN/A",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "Startup studio",
+        "headquarters_address": "Jordan, Amman",
+        "funding_requirements": "We build and invest in startups, turning bold ideas into market-leading companies, by  combining capital, shared resources, and operational  support, at every point of their business, leveraging  a proprietary repeatable process to launch, and grow  ew companies from the ground up.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$50k to $250k",
+        "target_countries": [
+          "Saudi Arabia",
+          "UAE",
+          "Jordan",
+          "Turkey",
+          "Egypt",
+          "Iraq",
+          "Lebanon",
+          "Costa Rica",
+          "Dominican Republic",
+          "Mexico",
+          "Brazil",
+          "Bolivia",
+          "Ecuador",
+          "Chile",
+          "Colombia",
+          "Venezuela",
+          "Peru",
+          "Tunisia",
+          "Armenia",
+          "Azerbaijan",
+          "Belarus",
+          "Georgia",
+          "Moldova",
+          "Ukraine"
+        ],
+        "team_members": [
+          {
+            "name": "Mohd Santarissy",
+            "role": "GP/MD",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/relativelyfund",
+        "website_link": "https://relativelyfund.com/"
+      },
+      {
+        "fund_name": "Sharpstone Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recIdm8pnG4c268NF.jpg",
+        "overview": "Firm typeVCGlobal HQ10 Bis Rue Léopold Bellan, 75002 Paris, France",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "10 Bis Rue Léopold Bellan, 75002 Paris, France",
+        "funding_requirements": "We invest in French-based startups with strong technological foundations, whatever the industry, from Pre-Seed to Seed (supporting investors).  Our goal is to be the first institutional investor for early-stage startups. Thanks to Sharpstone Advisory, our consulting business unit, we are able to evaluate the future potential of projects at a time where they have very limited metrics.",
+        "funding_stages": [
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$50k to $100k",
+        "target_countries": [
+          "France"
+        ],
+        "team_members": [
+          {
+            "name": "Germain Gaschet",
+            "role": "GP/MD",
+            "bio": "I invest in early stage startup in France"
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/sharpstone-capital/",
+        "website_link": "https://sharpstone-capital.fr/"
+      },
+      {
+        "fund_name": "Roselake Ventures",
+        "logo": "https://www.openvc.app/country/images/funds/recbYbaSbG1A9ZfGc.jpg",
+        "overview": "Firm typeVCGlobal HQUnit D, 6/F, Neich Tower, 128 Gloucester Road, Wanchai, Hong Kong, 999077, HK",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "Unit D, 6/F, Neich Tower, 128 Gloucester Road, Wanchai, Hong Kong, 999077, HK",
+        "funding_requirements": "We Invest in pre-seed, seed and Pre-A stages startups in Fintech, Web3, Blockchain, SaaS, Digital Commerce, Supply Chain, Climate Tech, Transportation, and Agriculture sectors in emerging market.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling",
+          "Growth",
+          "Prototype"
+        ],
+        "lead_investor": null,
+        "check_size": "$50k to $150k",
+        "target_countries": [
+          "South Africa",
+          "Algeria",
+          "Angola",
+          "Cameroon",
+          "Nigeria",
+          "Kenya",
+          "Egypt",
+          "Senegal",
+          "Ghana",
+          "Tanzania",
+          "Uganda",
+          "Rwanda",
+          "Morocco",
+          "Tunisia",
+          "Pakistan",
+          "Bangladesh",
+          "USA",
+          "Turkey",
+          "Ethiopia",
+          "Togo"
+        ],
+        "team_members": [
+          {
+            "name": "Jerry Yang",
+            "role": "Partner",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/roselake-ventures/",
+        "website_link": "https://www.roselake.vc/"
+      },
+      {
+        "fund_name": "Sente Foundry",
+        "logo": "https://www.openvc.app/country/images/funds/recqfD481lIYX7Kd5.jpg",
+        "overview": null,
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "Corporate VC",
+        "headquarters_address": "222 W. Merchandise Mart Plaza, Suite 570, Chicago, IL 6054 U.S.A.",
+        "funding_requirements": "We invest in urban mobility/logistics, human essentials, and industrial circular economy in collaboration with corporations and family offices that are looking for opportunities in the global ecosystems. We are looking for startups at MVP stage (not earlier) and at zero or minimal revenue.",
+        "funding_stages": [
+          "Early Revenue",
+          "Scaling",
+          "Growth"
+        ],
+        "lead_investor": null,
+        "check_size": "$75k to $100k",
+        "target_countries": [
+          "Canada",
+          "USA",
+          "Turkey",
+          "Israel",
+          "UK",
+          "Netherlands",
+          "Portugal",
+          "India",
+          "Singapore",
+          "Spain",
+          "Greece",
+          "Finland",
+          "Ukraine",
+          "Lebanon",
+          "Slovenia",
+          "Bosnia-H",
+          "Croatia",
+          "Taiwan",
+          "Germany",
+          "France",
+          "Poland",
+          "Ireland",
+          "Tunisia",
+          "Algeria",
+          "Côte d'Ivoire",
+          "Japan"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/sente",
+        "website_link": "https://www.sente.vc/"
+      },
+      {
+        "fund_name": "Shorooq Partners",
+        "logo": "https://www.openvc.app/country/images/funds/recOjuE5cejQLVonm.jpg",
+        "overview": "Firm typeVCGlobal HQ14th Floor, Al Khatem Tower, ADGM Square Al Falah Street Abu Dhabi, UAE",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "14th Floor, Al Khatem Tower, ADGM Square Al Falah Street Abu Dhabi, UAE",
+        "funding_requirements": "We invest in technology companies at the Pre-seed to Series-A stages that are fintech, software or platform companies",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": null,
+        "check_size": "$1M to $3M",
+        "target_countries": [
+          "UAE",
+          "Saudi Arabia",
+          "Bahrain",
+          "Jordan",
+          "Egypt",
+          "Tunisia",
+          "Morocco",
+          "Pakistan",
+          "Bangladesh"
+        ],
+        "team_members": [
+          {
+            "name": "Sali Elagab",
+            "role": "Sr Associate",
+            "bio": null
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/shorooqpartners/",
+        "website_link": "https://www.shorooq.com/"
+      },
+      {
+        "fund_name": "Venture MENA",
+        "logo": "https://www.openvc.app/country/images/funds/recX7urZCSXBGPvDy.jpg",
+        "overview": "Firm typeVCGlobal HQ34th Floor, 3416 ResCo-Work04, Al Maqam Tower Abu Dhabi Global Market, Abu Dhabi, UAE",
+        "who_we_are": null,
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "34th Floor, 3416 ResCo-Work04, Al Maqam Tower Abu Dhabi Global Market, Abu Dhabi, UAE",
+        "funding_requirements": "We invest in Middle East based early-stage technology entrepreneurs who are creating new tools and networks that enable businesses to operate in tomorrows market. We will invest in the seed range through Series A, adhere to a defined reserve allocation policy and give our LP bases access to co-investment and later stage opportunities.",
+        "funding_stages": [
+          "1. Idea or Patent",
+          "2. Prototype",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$50k to $100k",
+        "target_countries": [
+          "UAE",
+          "Saudi Arabia",
+          "Egypt",
+          "Kuwait",
+          "Qatar",
+          "Bahrain",
+          "Jordan",
+          "Palestine",
+          "Iraq",
+          "Morocco",
+          "Algeria",
+          "Tunisia",
+          "Oman",
+          "Lebanon"
+        ],
+        "team_members": [],
+        "linkedin_link": "https://www.linkedin.com/company/venturemena/",
+        "website_link": "http://www.venturemena.com/"
+      },
+      {
+        "fund_name": "YIT Capital",
+        "logo": "https://www.openvc.app/country/images/funds/recPGgIad0sz2tcrY.jpg",
+        "overview": "Overview",
+        "who_we_are": "We are a syndicats of business angel that invest in Shariah compliant start-up.",
+        "value_add": "We actively coach the founders we back to product market fit and assist them with their Shariah problematics.",
+        "firm_type": "Angel network",
+        "headquarters_address": "8 rue Sigismond, Bonnevoie, Luxembourg",
+        "funding_requirements": "We invest in Shariah compliant startups.",
+        "funding_stages": [
+          "Idea or Patent",
+          "Early Revenue",
+          "Scaling",
+          "Growth",
+          "Pre-IPO",
+          "Prototype"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$40k to $300k",
+        "target_countries": [
+          "France",
+          "Morocco",
+          "Algeria",
+          "Tunisia",
+          "Belgium",
+          "Canada",
+          "Senegal",
+          "Luxembourg"
+        ],
+        "team_members": [
+          {
+            "name": "Yassir Adabi",
+            "role": "Partner",
+            "bio": "I invest in Shariah compliant deals."
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/yit-capital/",
+        "website_link": "https://www.yit-capital.com/"
+      },
+      {
+        "fund_name": "Abraseed-1",
+        "logo": "https://www.openvc.app/country/images/funds/recMpggNrJWVJPCow.jpg",
+        "overview": "We are launching Abraseed-1, a €50 million investment fund aimed to back 100 tech startups at pre-seed/seed stages in the MENA & GCC region. We strongly believe on MENA entrepreneurs potential and we want to help founders to be game changer for the world. We can build a better future. We are excited to discover your project and work with you to grow. We are here to support you every step of the way, because we believe that your success is a first step towards a world of prosperity.",
+        "who_we_are": "We are launching Abraseed-1, a €50 million investment fund aimed to back 100 tech startups at pre-seed/seed stages in the MENA & GCC region.",
+        "value_add": "We strongly believe on MENA entrepreneurs potential and we want to help founders to be game changer for the world. We can build a better future. We are excited to discover your project and work with you to grow. We are here to support you every step of the way, because we believe that your success is a first step towards a world of prosperity.",
+        "firm_type": "VC",
+        "headquarters_address": "Paris, France",
+        "funding_requirements": "We invest in every tech industries, specially in deeptech, AI, synbio, edtech, SaaS",
+        "funding_stages": [
+          "2. Prototype",
+          "3. Early Revenue",
+          "4. Scaling"
+        ],
+        "lead_investor": "Sometimes",
+        "check_size": "$200k to $500k",
+        "target_countries": [
+          "Algeria",
+          "Egypt",
+          "Israel",
+          "Jordan",
+          "Kuwait",
+          "Morocco",
+          "Qatar",
+          "Saudi Arabia",
+          "Tunisia",
+          "Turkey"
+        ],
+        "team_members": [
+          {
+            "name": "Sam Sadroleslami",
+            "role": "Analyst",
+            "bio": "We invest in every tech industries in pre-seed/seed in the MENA/GCC region"
+          },
+          {
+            "name": "Tomer Attias",
+            "role": "Associate",
+            "bio": "Tech startups"
+          }
+        ],
+        "linkedin_link": "https://www.linkedin.com/company/abraseed/?viewAsMember=true",
+        "website_link": "https://www.abraseed.com.com"
+      },
+      {
+        "fund_name": "Cathay AfricInvest Innovation",
+        "logo": "https://www.openvc.app/country/images/funds/reci0QxyjhRL6mygC.jpg",
+        "overview": "Overview",
+        "who_we_are": "The Cathay Africinvest Innovation Fund is the first Pan-African Venture Fund created to connect the continent and the world's leading innovation ecosystems. With the combination of socio-economic gaps and innovation drivers, startups have an opportunity to fuel a technological leapfrog that can improve over 1 billion lives across Africa. We want to fuel this transition by creating and connecting new digital infrastructures and services that will boost the economy to the next level. The fund is operated by the Africinvest team, through a common management company, with the value-added global support of Cathay Innovation.",
+        "value_add": null,
+        "firm_type": "VC",
+        "headquarters_address": "1101, 11th floor, The Core, No 62, ICT Avenue, Cybercity, Ebene, Mauritius",
+        "funding_requirements": "We invest in early to growth-stage startups based in or focused on Africa that are ready to scale and make a significant impact with innovative and inclusive solutions. We back mission-driven teams with a particular focus on logistics, e-commerce, edtech, fintech, mobility, healthtech, energy and agtech. Our initial check sizes range from $1 – $10M for growth-stage or select seed-stage tickets up to $1M.",
+        "funding_stages": [
+          "4. Scaling",
+          "5. Growth",
+          "3. Early Revenue"
+        ],
+        "lead_investor": null,
+        "check_size": "$1M to $10M",
+        "target_countries": [
+          "South Africa",
+          "Nigeria",
+          "Tunisia",
+          "Egypt",
+          "Kenya",
+          "Morocco",
+          "Algeria",
+          "Côte d'Ivoire"
+        ],
+        "team_members": null,
+        "linkedin_link": "https://www.linkedin.com/company/africinvestgrp/",
+        "website_link": "https://cathayinnovation.com/fund/cathay-africinvest-innovation/"
+      }
+    ]
+  }

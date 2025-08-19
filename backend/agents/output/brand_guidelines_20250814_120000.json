@@ -1,0 +1,28 @@
+{
+  "name": "BrandOrbAI",
+  "colors": [
+    "#2563eb",
+    "#1e40af", 
+    "#3b82f6",
+    "#60a5fa",
+    "#93c5fd"
+  ],
+  "personality": [
+    "Innovative",
+    "Professional",
+    "Trustworthy",
+    "Modern",
+    "Intelligent"
+  ],
+  "customDescription": "BrandOrbAI is an AI-powered brand management platform that helps businesses create, manage, and optimize their brand identity across all digital channels.",
+  "logoUrl": "/logo/brandorb-logo.png",
+  "brandVoice": "Professional yet approachable, confident but not arrogant",
+  "targetAudience": "Business owners, marketing professionals, and entrepreneurs",
+  "brandValues": [
+    "Innovation",
+    "Excellence", 
+    "Transparency",
+    "Customer Success"
+  ],
+  "generatedAt": "2025-08-14T12:00:00Z"
+}

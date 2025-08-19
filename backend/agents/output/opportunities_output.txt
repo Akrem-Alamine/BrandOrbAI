@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Python E-Learning Platform Solutions Inc.",
+    "description": "Leading provider of python e-learning platform services and solutions",
+    "city": "New York",
+    "email": "contact@pythone-learningplatformsolutions.com",
+    "homepage": "https://pythone-learningplatform-solutions.com",
+    "logoUrl": "",
+    "phoneNumber": "+1-555-0123"
+  },
+  {
+    "name": "Global Python E-Learning Platform Partners",
+    "description": "International network specializing in python e-learning platform industry partnerships",
+    "city": "San Francisco",
+    "email": "partnerships@globalpythone-learningplatform.com",
+    "homepage": "https://global-pythone-learningplatform.com",
+    "logoUrl": "",
+    "phoneNumber": "+1-555-0456"
+  },
+  {
+    "name": "Python E-Learning Platform Connect Ltd.",
+    "description": "Connecting businesses in the python e-learning platform sector with growth opportunities",
+    "city": "Austin",
+    "email": "info@pythone-learningplatformconnect.com",
+    "homepage": "https://pythone-learningplatform-connect.com",
+    "logoUrl": "",
+    "phoneNumber": "+1-555-0789"
+  }
+]

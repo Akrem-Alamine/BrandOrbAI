@@ -1,0 +1,60 @@
+{
+  "version_id": "python-e-learn-1755189154_v20250814_173234",
+  "website_id": "python-e-learn-1755189154",
+  "timestamp": "20250814_173234",
+  "user_prompt": "Create a professional landing page",
+  "analysis": {
+    "company_name": "Python E-Learn",
+    "industry": "E-Learning",
+    "business_type": "Online Education Platform",
+    "target_audience": "Individuals seeking to acquire Python skills, including beginners, professionals, and hobbyists",
+    "unique_value_proposition": "Accessible and comprehensive online learning experience for Python education",
+    "key_services": [
+      "Online Courses",
+      "Personalized Mentorship",
+      "Advanced Projects"
+    ],
+    "competitive_advantages": [
+      "User-friendly approach",
+      "Personalized support and mentorship"
+    ],
+    "brand_colors": [
+      "#2563eb",
+      "#1e40af",
+      "#3b82f6",
+      "#60a5fa",
+      "#93c5fd"
+    ],
+    "brand_personality": "Innovative, Professional, Trustworthy, Modern, Intelligent",
+    "website_sections": [
+      "Hero",
+      "About",
+      "Courses",
+      "Testimonials",
+      "Forum",
+      "Contact"
+    ],
+    "call_to_action": "Start Learning Python Today!",
+    "seo_keywords": [
+      "Python education",
+      "Online learning platform",
+      "Accessible Python courses"
+    ],
+    "tone_of_voice": "Friendly, Approachable, Expert",
+    "business_model": "Subscription-based",
+    "stage": "Startup",
+    "key_metrics": [
+      "Course completion rates",
+      "Student satisfaction",
+      "Revenue growth"
+    ],
+    "social_proof_elements": [
+      "Testimonials",
+      "Student success stories",
+      "Partnerships with influencers and bloggers"
+    ]
+  },
+  "file_size": 18290,
+  "company_name": "Python E-Learn",
+  "industry": "E-Learning"
+}
