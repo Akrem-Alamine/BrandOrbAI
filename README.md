@@ -89,11 +89,8 @@ npm run dev
 
 ## 🤝 Contributing
 
-This project was developed as part of Summer Camp 2025. Contributions and improvements are welcome!
+This project was developed as part of Talan SummerCamp 2025. Contributions and improvements are welcome!
 
-## 📄 License
-
-[Add your license information here]
 
 
 
