@@ -13,3 +13,9 @@ node_modules/
 dist/
 build/
 *.log
+
+# Ignore Python virtual environments
+venv/
+.env
+.env.*
+# ...existing rules...
