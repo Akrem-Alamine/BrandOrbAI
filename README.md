@@ -1,5 +1,4 @@
-﻿# BrandOrb-AI
-# AI Brand Development Platform
+﻿# BrandOrb-AI | AI Brand Development Platform
 
 An end-to-end AI-powered platform that guides users through the complete journey of designing and launching a new brand, from initial ideation to go-to-market strategy implementation.
 
@@ -95,5 +94,6 @@ This project was developed as part of Summer Camp 2025. Contributions and improv
 ## 📄 License
 
 [Add your license information here]
+
 
 
