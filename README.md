@@ -4,7 +4,7 @@ An end-to-end AI-powered platform that guides users through the complete journey
 
 ## 🚀 Project Overview
 
-This comprehensive AI platform helps entrepreneurs and businesses create, develop, and launch their brand through an intelligent, multi-stage workflow. Built for Summer Camp 2025 in Talon, the platform combines advanced AI agents, data analysis, and automation to streamline the entire brand development process.
+This comprehensive AI platform helps entrepreneurs and businesses create, develop, and launch their brand through an intelligent, multi-stage workflow. Built for Summer Camp 2025 in Talan, the platform combines advanced AI agents, data analysis, and automation to streamline the entire brand development process.
 
 ## 🎯 Key Features
 
@@ -90,6 +90,7 @@ npm run dev
 ## 🤝 Contributing
 
 This project was developed as part of Talan SummerCamp 2025 and won the gold prize. Contributions and improvements are welcome!
+
 
 
 
