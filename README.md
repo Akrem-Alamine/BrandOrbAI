@@ -90,6 +90,7 @@ npm run dev
 ## 📚 Documentation
 
 For detailed information about the BrandOrbAI pipeline:
+- **[PIPELINE_QUICK_REFERENCE.md](./PIPELINE_QUICK_REFERENCE.md)** - ⚡ Quick reference guide for developers
 - **[PIPELINE.md](./PIPELINE.md)** - Complete pipeline documentation with stages, components, and API endpoints
 - **[PIPELINE_ARCHITECTURE.md](./PIPELINE_ARCHITECTURE.md)** - Detailed architecture diagrams and technical flows
 
