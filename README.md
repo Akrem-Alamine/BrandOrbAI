@@ -87,6 +87,13 @@ npm run dev
 - Real-time market trend analysis
 - Collaborative brand development features
 
+## 📚 Documentation
+
+For detailed information about the BrandOrbAI pipeline:
+- **[PIPELINE_QUICK_REFERENCE.md](./PIPELINE_QUICK_REFERENCE.md)** - ⚡ Quick reference guide for developers
+- **[PIPELINE.md](./PIPELINE.md)** - Complete pipeline documentation with stages, components, and API endpoints
+- **[PIPELINE_ARCHITECTURE.md](./PIPELINE_ARCHITECTURE.md)** - Detailed architecture diagrams and technical flows
+
 ## 🤝 Contributing
 
 This project was developed as part of Talan SummerCamp 2025 and won the gold prize. Contributions and improvements are welcome!
