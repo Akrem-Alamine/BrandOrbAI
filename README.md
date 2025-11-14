@@ -79,6 +79,20 @@ pip install -r requirements.txt
 npm run dev
 ```
 
+## 📚 Documentation
+
+For detailed information about the BrandOrbAI pipeline and workflow:
+
+- **[Complete Pipeline Documentation (English)](./PIPELINE.md)** - Comprehensive guide to all stages, agents, and API endpoints
+- **[Documentation du Pipeline (Français)](./PIPELINE_FR.md)** - Guide complet en français
+
+These documents provide:
+- Detailed explanation of each pipeline stage
+- API endpoint references
+- Agent descriptions and capabilities
+- Data flow diagrams
+- Best practices and troubleshooting
+
 ## 📈 Future Enhancements
 
 - Advanced analytics dashboard
